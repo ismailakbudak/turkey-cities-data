@@ -1,8 +1,4 @@
 require 'json'
-require 'google_maps_service'
-require "./config/secrets"
-
-gmaps = GoogleMapsService::Client.new(key: Config::SECRETS[:google_api_key] )
 
 cities_json = "./data/cities.json"
 matrix_json = "./data/matrix.json"
