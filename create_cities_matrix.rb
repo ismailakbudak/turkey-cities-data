@@ -15,10 +15,7 @@ cities.each do |city|
 
 	root = "./data/paths/all-#{city['id']}"
 	
-	val = { "from_name": city["name"], "to_name": city_in["name"], "from_id": city["id"], "to_id": city_in["id"], "distance": 0, "duration": 0 }	
-	matrix << val
-
-	val = { "from_name": city_in["name"], "to_name": city["name"], "from_id": city_in["id"], "to_id": city["id"], "distance": 0, "duration": 0 }
+	val = { "from_name": city["name"], "to_name": city["name"], "from_id": city["id"], "to_id": city["id"], "distance": 0, "duration": 0 }	
 	matrix << val
 
 	cities.select{|i| i["id"] > city["id"] }.each do |city_in|
@@ -29,10 +26,10 @@ cities.each do |city|
         file_name = "#{root}/cities-#{city['id']}-#{city_in['id']}.json"
 		file = File.read(file_name)
 		routes = JSON.parse(file)
-
-		distance = routes[0][:legs][0][:distance][:value]
-		duration = routes[0][:legs][0][:duration][:value]
-
+		
+		puts distance = routes[0]["legs"][0]["distance"]["value"]
+		puts duration = routes[0]["legs"][0]["duration"]["value"]
+		
 		val = { "from_name": city["name"], "to_name": city_in["name"], "from_id": city["id"], "to_id": city_in["id"], "distance": distance, "duration": duration }
 		matrix << val
 	
