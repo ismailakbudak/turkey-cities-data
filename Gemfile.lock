@@ -9,6 +9,9 @@ GEM
     hurley (0.2)
     multi_json (1.11.2)
     retriable (2.1.0)
+    ruby-ole (1.2.12)
+    spreadsheet (1.1.2)
+      ruby-ole (>= 1.0)
 
 PLATFORMS
   ruby
@@ -16,6 +19,7 @@ PLATFORMS
 DEPENDENCIES
   geokit (~> 1.10)
   google_maps_service (~> 0.4.1)
+  spreadsheet (~> 1.1, >= 1.1.2)
 
 BUNDLED WITH
    1.11.2
