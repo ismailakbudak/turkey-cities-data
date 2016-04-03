@@ -99,3 +99,22 @@ def create_matrix_for_float field_name, matrix_json, result_file_name
 		write_result_file(val, result_file_name)  
 	end
 end
+
+def create_coorditanion cities_json, result_file_name
+	clear_result_file result_file_name
+
+	val  = "%15s  " % ["Şehir"]
+	val += "%12s   " % ["X(Enlem)"]
+	val += "%12s   " % ["Y(Boylam)"]
+	write_result_file(val, result_file_name)  
+
+	cities_json.each do |city|
+
+		val = "%15s %02d" % [ city["name"], city["id"] ]
+		val += "%#13s" % [ ( "%.7f" % city["lattitude"]).to_s ]
+		val += "%#13s" % [ ( "%.7f" % city["longitude"]).to_s ]
+		write_result_file(val, result_file_name)  
+
+	end
+
+end		
