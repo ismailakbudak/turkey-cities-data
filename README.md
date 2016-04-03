@@ -6,5 +6,5 @@ Run
 ```ruby server.rb```
 
 ##Examples
- [![iso](public/example.png)](https://github.com/ismailakbudak/turkey-cities-data) 
+ [![iso](web/public/example.png)](https://github.com/ismailakbudak/turkey-cities-data) 
  
