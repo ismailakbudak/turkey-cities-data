@@ -5,6 +5,9 @@
 # ismailakbudak.com
 
 from matplotlib import pyplot as plt
+import matplotlib.cbook as cbook
+import matplotlib.image as image
+
 import networkx as nx
 import random
 from collections import OrderedDict
@@ -55,7 +58,7 @@ class Node(object):
         return self.SHORT_NAME
 
     def __str__(self):
-        return self.NAME
+        return "" #self.NAME
 
     """ 
     Add new node to neighbours
@@ -241,6 +244,9 @@ class Graph(object):
             edges=[]
             edge_colors="yellow"    
 
+        im = image.imread('web/public/turkey.gif') 
+        plt.imshow(im, aspect='auto', extent=(25.9,45,35.6,42.25), alpha=0.9, zorder=-1)
+
         G=nx.grid_2d_graph(1,1)
         plt.subplot(111)     
         labels = nx.get_edge_attributes(graph,'weight')
@@ -256,7 +262,7 @@ class Graph(object):
                 self.positions,
                 with_labels=True,
                 font_size=8,
-                node_size=1000,#node_size,
+                node_size=950,#node_size,
                 font_family='ubuntu',
                 font_color='red',
                 node_color=node_colors, 
@@ -264,7 +270,7 @@ class Graph(object):
                 edge_color=edge_colors, 
                 width=0.4) 
         plt.axis('on')
-        plt.grid('on')     
+        plt.grid('on')    
         plt.show()  
         
     """ 
