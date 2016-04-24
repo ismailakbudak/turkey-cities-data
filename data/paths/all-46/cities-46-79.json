@@ -1,0 +1,599 @@
+[
+  {
+    "bounds": {
+      "northeast": {
+        "lat": 37.5751748,
+        "lng": 37.3883405
+      },
+      "southwest": {
+        "lat": 36.703789,
+        "lng": 36.9227875
+      }
+    },
+    "copyrights": "Map data ©2016 Google",
+    "legs": [
+      {
+        "distance": {
+          "text": "136 km",
+          "value": 135931
+        },
+        "duration": {
+          "text": "1 hour 50 mins",
+          "value": 6579
+        },
+        "end_address": "Büyükkütah, Cumhuriyet Cd. No:39, 79000 Kilis Merkez/Kilis, Turkey",
+        "end_location": {
+          "lat": 36.7164893,
+          "lng": 37.1147139
+        },
+        "start_address": "Hacı Bayram Veli, Ali Sezal Blv. No:2, 46040 Kahramanmaraş Merkez/Kahramanmaraş, Turkey",
+        "start_location": {
+          "lat": 37.5751748,
+          "lng": 36.9227875
+        },
+        "steps": [
+          {
+            "distance": {
+              "text": "0.3 km",
+              "value": 285
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 71
+            },
+            "end_location": {
+              "lat": 37.5747116,
+              "lng": 36.9259686
+            },
+            "html_instructions": "Head <b>east</b> on <b>Kuddusi Baba Blv.</b> toward <b>Ali Sezal Blv.</b>",
+            "polyline": {
+              "points": "y{idFmnj`F@MBe@@g@@a@Dk@^iETmCTyB"
+            },
+            "start_location": {
+              "lat": 37.5751748,
+              "lng": 36.9227875
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "0.7 km",
+              "value": 687
+            },
+            "duration": {
+              "text": "2 mins",
+              "value": 106
+            },
+            "end_location": {
+              "lat": 37.5686414,
+              "lng": 36.92458999999999
+            },
+            "html_instructions": "Turn <b>right</b> onto <b>Azerbaycan Blv.</b>",
+            "maneuver": "turn-right",
+            "polyline": {
+              "points": "}xidFibk`FhFp@zD`@XFN@dAN`Ed@v@HfFl@pCt@r@P"
+            },
+            "start_location": {
+              "lat": 37.5747116,
+              "lng": 36.9259686
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "1.3 km",
+              "value": 1299
+            },
+            "duration": {
+              "text": "3 mins",
+              "value": 172
+            },
+            "end_location": {
+              "lat": 37.564076,
+              "lng": 36.937432
+            },
+            "html_instructions": "At the roundabout, take the <b>3rd</b> exit onto <b>Doğu Çevre Yolu</b>/<b>D835</b>",
+            "maneuver": "roundabout-right",
+            "polyline": {
+              "points": "_shdFuyj`F?@@@?@@??@@@?@@@DBDBBBFBD@D@D@D?D@D?BAD?DABCDCBCDEDGBIBI@I@I?KAIAICK?A?AAA?AAAAA?ADg@Dg@Lo@Ty@n@wB|DgOjAcEj@cClAwEH]tAuGx@{DBOVuAj@aDb@}Bd@qCRkA"
+            },
+            "start_location": {
+              "lat": 37.5686414,
+              "lng": 36.92458999999999
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "1.7 km",
+              "value": 1748
+            },
+            "duration": {
+              "text": "2 mins",
+              "value": 138
+            },
+            "end_location": {
+              "lat": 37.5581821,
+              "lng": 36.9555123
+            },
+            "html_instructions": "Keep <b>left</b> to stay on <b>Doğu Çevre Yolu</b>/<b>D835</b>",
+            "maneuver": "keep-left",
+            "polyline": {
+              "points": "ovgdF}im`F`@}Cb@sDHi@XuBj@}Dt@aHnAuKpB{Of@sC@GR_An@_DHc@d@kBp@eCh@iBh@{A|AkEjBqETg@jAwB|DeG"
+            },
+            "start_location": {
+              "lat": 37.564076,
+              "lng": 36.937432
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "5.8 km",
+              "value": 5761
+            },
+            "duration": {
+              "text": "6 mins",
+              "value": 361
+            },
+            "end_location": {
+              "lat": 37.5199165,
+              "lng": 36.9992285
+            },
+            "html_instructions": "At the roundabout, take the <b>1st</b> exit onto <b>Recep Tayyip Erdoğan Blv.</b>/<b>D835</b><div style=\"font-size:0.9em\">Continue to follow D835</div>",
+            "maneuver": "roundabout-right",
+            "polyline": {
+              "points": "sqfdF}zp`FB?@A@?BA@?@ABA@A@A@C@A?A@C@C?A@C?C?C?A?C?C?C?ApBkCfA_B~@cAvD}DbGkFnCaCrJgIzEgErBwB`FuGzCgEfCqD|DqFnDuEbAsAr@_AjEgG`@k@~BaDn@y@v@y@lAwA@?@AB?@A@A@A@A@A@A?A@A?A@C?A@A?C?CPOZ_@dB_CfBeCbCqCrF}FpBwBdCuCvCwD~AyBV]`@i@pFuHtGwIjPqTtAkBrCcDlBeChBkC@A@?@?@A@A@?@A?A@A@A@A?A?A@A?A?A@C`CcDhAcBlC}D|DwExEaFfAiAnF_GlBiBpNuNPQdAmA"
+            },
+            "start_location": {
+              "lat": 37.5581821,
+              "lng": 36.9555123
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "19.2 km",
+              "value": 19210
+            },
+            "duration": {
+              "text": "13 mins",
+              "value": 756
+            },
+            "end_location": {
+              "lat": 37.3957976,
+              "lng": 37.1328844
+            },
+            "html_instructions": "At the roundabout, take the <b>1st</b> exit onto <b>Gaziantep Kahramanmaraş Yolu</b>/<b>D835</b>",
+            "maneuver": "roundabout-right",
+            "polyline": {
+              "points": "ob_dFely`FB?@?@?B?@A@?@ABA@A@A@A@A@A?C@A@C?A@C?A?C`@a@hAoAhBuB`@c@|@cAb@c@NQJM`@c@|@cAp@s@tAyA|@aA~@cA~@cA`BeB~@cAhAmAxB_CnAqApAoAdAaAdB}Ab@_@h@c@f@c@r@k@\\Y~@s@fByA|@q@~AiAPKp@e@b@Yb@Wt@a@DCf@YtG{DjQyJ|A{@jHaE~FsDpEiDxBgBtCmCpBgBbAaA`ZmYdXkWvNgNjD}CfCwBvCuDpBaDjAqCtAkD`EuPpE{Rn@iCpE_Qd@eBv@sCvK}`@fLeb@lAiErL{b@jLyb@~A_GpGkUrA}Cp@eB~PwZtBqDHMHOlBgDFInGgLHIhCoELSLQHIxCiErGsHjGwF|Q{NPOrCeCjNmLnE}Dj@m@jByBtCkDlBoCd@w@pC_FbCeFf@eAbGuLlGeMtBgEzEsJjJeRfDcGjDsF|@mAxAsBT]lAyAHM~LuPnBiCvDiFzDmF`C}C~B{ChBgB|AuAjBsAvFgDTKhHwD~KgGzAy@`[sPlKsFdCyAzEgCpGkDxCcBlCuApEiBjGeB`Ba@dEu@|BSbCMLC`AEfACfBAzC?lEHbFFhCFjB@~@FlBXlBh@`Cv@zBdAf@VRL`@T~An@hBZn@F~ARxBLpCCjBOp@KTE"
+            },
+            "start_location": {
+              "lat": 37.5199165,
+              "lng": 36.9992285
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "34.3 km",
+              "value": 34329
+            },
+            "duration": {
+              "text": "26 mins",
+              "value": 1542
+            },
+            "end_location": {
+              "lat": 37.1577484,
+              "lng": 37.2844973
+            },
+            "html_instructions": "At the roundabout, take the <b>1st</b> exit onto <b>Gaziantep Kahramanmaraş Yolu</b>/<b>D360</b>/<b>D835</b><div style=\"font-size:0.9em\">Continue to follow D835</div>",
+            "maneuver": "roundabout-right",
+            "polyline": {
+              "points": "wzfcFoosaFF@@?@?B?@?@?B?@?@ABA@A@?@A@CBELEhD}@rLmCpJmBXE~K{BpBe@hAQz@KvBMNAl@CtAOdAIf@C\\AhA@nCBpA@`@B`@BZBp@Jr@LtBb@hF|@tLpBfDj@tFv@hPxBnDb@vEl@bCLlA@l@Cr@Er@KJAf@IXC~@Qj@O|Aq@fDaBhAo@nDsBbC{A`BmAnAaApDsCbAy@JI^[j@e@fAs@dAy@|CsB~AeAdC}AtDsB|HoDd@UFC`CyAb@QzAk@nBm@lBm@vBk@xEkAxEaAdDk@bBWnAQdEi@`CSHApEk@|Dc@hCYjBSTCjBYzC]tHcArJmAfIgAvBUdFs@~Dc@tL{AzDa@bOeBZEfC[~Eq@z\\oDtCc@jD_@tNeBfKmAxC_@~JqAxPyA`DUbESbE[bGe@`CQvAIbYcBt@KZA~@GfCGNAdAQBDB@@@@?@@@?B?@?@?B?@?@?@ABA@?@A@A@C@At@C`Hi@`Gc@zISlIDnGLF?jIKrDB`CMlDi@|C{@jCuArB{A|A_BhB_C@?lA{Bv@kBbAsCl@oCp@yERuD?oDMeEg@iFgAgHWqBg@wEYkEGcGBaAJwFXaDfAaG~@uDlAwDz@oB|DuGlHmKjAaBlLkP~AmChBuDVg@hAoClAuE|AsHfA}HHeATaD@_@@mJ?yN@wBPcd@Jo[DsGBmFFeBv@{Id@oCnBqHBEd@wAf@eAp@qAn@aAr@sA\\m@bAsArAoBhAoApAmAjAy@vDeCbGkD|JkG`CqAxC}A~@c@h@W`K{F~BmAzNoH~BsAd@_@nDiC`DsCjDaDhCuChBwB^e@`DqEzCyEnBkDdA}BjAqCxBwGx@gCz@uCl@uBp@sCv@mDf@uCp@gEx@_Gx@uFv@aGr@aFVoBj@uDtA}JbAkIN{@Ji@F[\\_BfAcFx@uD\\_Bh@mBj@gBj@{AVq@Vk@Zo@d@y@^o@b@s@nAqBz@yAx@oAvBqDb@u@n@gAlAcCrAqCz@sBRi@b@iAp@mB^aApAmD`AyBb@kA|@aCbAgC`@}@\\m@T_@d@s@l@aAnA_BlAuAd@c@x@o@tAaAVQjAm@|@a@x@e@rAs@hAi@nAm@t@_@hAS^Gf@G|@G`@A^?b@D\\Bb@FZHd@Jd@Nn@Vj@Vb@TzA~@bBx@vA~@j@d@zBvApAv@NHxBhAjDfB|@d@tC~ApBlAdE~BvCbBlCzAlE`CpI|DlH`DJDnI|DvDbBlClAnChAfA`@~@Vb@H@?r@Ff@FrA@pA?dCIR@b@CH?h@GhAMj@Il@OnBm@tAe@jBu@LEz@[vAm@n@UjDoAnCkAjC}@fJkD~H_Dn@StAo@xBk@|Ak@d@Sr@Y`CgAlBy@nCeArEeB|D}Ap@W~Am@l@Yz@a@tEwB`U{Kv@c@l@]nFiClAm@|J{E~CoAXOLO`@QhEaC|As@xAs@dTmKlDaBPIzFeCxB_ArD_BhL_FJGzTqJfAc@pA_@`B_@pCYlAWp@Q^E`@IdCw@hOwCpGkAnCi@fBa@tL{BhAQxIiAZGZEXGXI"
+            },
+            "start_location": {
+              "lat": 37.3957976,
+              "lng": 37.1328844
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "1.2 km",
+              "value": 1164
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 60
+            },
+            "end_location": {
+              "lat": 37.1491973,
+              "lng": 37.2920067
+            },
+            "html_instructions": "Continue onto <b>Gaziantep Kahramanmaraş Yolu</b>/<b>D400</b>",
+            "polyline": {
+              "points": "}jxaFccqbFxBiAn@_@j@i@bAaAxAqBxBgC`A{@XWNKFApEeDpGiFhOeMn@k@l@i@"
+            },
+            "start_location": {
+              "lat": 37.1577484,
+              "lng": 37.2844973
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "4.7 km",
+              "value": 4699
+            },
+            "duration": {
+              "text": "4 mins",
+              "value": 212
+            },
+            "end_location": {
+              "lat": 37.1157224,
+              "lng": 37.3219042
+            },
+            "html_instructions": "Keep <b>left</b> to stay on <b>Gaziantep Kahramanmaraş Yolu</b>/<b>D400</b>",
+            "maneuver": "keep-left",
+            "polyline": {
+              "points": "ouvaFarrbFRQVU~AqApFiEj@e@lB_Bz@s@|@u@`Au@nJ_IrB}A`BkAfGiFpC_C|@u@tC{BjCoBh@]bBiAn@]`Bw@fAi@rAk@vAg@n@S|Ae@dD{@tASxAUrBW|ASxASfCYf@IBAr@O\\IbBe@zBs@dA_@~@_@x@]b@SdAi@z@c@lAq@hAq@~AeAlA{@~@s@~@s@hAcA`A_A~@_AdAmAdAkARUb@g@xAkBjAeBzAeCrDwGl@iAnCsFbBkDLYvEiJ\\s@jA}BlA{BhDwGnC}F?A|CuF"
+            },
+            "start_location": {
+              "lat": 37.1491973,
+              "lng": 37.2920067
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "0.3 km",
+              "value": 257
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 16
+            },
+            "end_location": {
+              "lat": 37.1138212,
+              "lng": 37.3235227
+            },
+            "html_instructions": "Take the ramp to <b>Gaziantep Çevre Yolu</b>/<b>O-54</b>",
+            "polyline": {
+              "points": "gdpaF{lxbFxBwBp@o@f@a@TQp@m@VSHGJGHCHCHCRI"
+            },
+            "start_location": {
+              "lat": 37.1157224,
+              "lng": 37.3219042
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "14.6 km",
+              "value": 14612
+            },
+            "duration": {
+              "text": "9 mins",
+              "value": 527
+            },
+            "end_location": {
+              "lat": 37.0162472,
+              "lng": 37.3128226
+            },
+            "html_instructions": "Turn <b>right</b> onto <b>Gaziantep Çevre Yolu</b>/<b>O-54</b>",
+            "maneuver": "turn-right",
+            "polyline": {
+              "points": "kxoaF_wxbFJAz@r@\\ZZZZZd@l@Z^Z\\ZZ`@^ZT`@Xh@\\|@f@bFpCpFxCjHbE|BlA~EnCdFpCfAl@j@Z|Ar@h@T|@Zd@P^J`@Lb@H^Jf@Hj@Hb@Fh@Dl@Bp@BjA@pBE`AGnAMpAUlE}@|Bm@fOoDfEw@jEe@^C\\A|BMbC?z@?x@@p@Bn@BdBJrAJ|Dj@~FtALDJBdCr@bD`AtLxDzBj@rGlBXHdCt@xK`DpFbBpFfBzE~BrFhC|At@nHpE`GvD|ErCfAj@hAh@HDnExBdDxAdAd@rCnAdH|CvDdBt@ZZN|@`@rD~AzBbAhAf@lBn@fBl@~Br@|Cz@bAVd\\fJnDdAbDjAr@VbAf@zBrAnCtBhBfBlBvBz@lAd@r@~@`Bj@lAVf@Xp@Zt@dCfGnAvCnAfDr@dBp@bBj@tAz@vBnArCf@nApAjCx@|A`AdBhAnB`A~Ax@jA`B|Bz@jAZ`@NPX\\PTdAlAx@|@dAhAp@n@|@z@`GhFtMtK|GnFfBlAbBfAnCtAzB|@tBl@~Bf@`BNnCJjA@~AMbAGfB[tBk@nBo@jBs@z@i@~@k@j@e@h@g@bBiBpA}AzAcC~AsDdA{Cl@wBVkAb@iC^oCd@yETkCb@uG`@uH^sGNkBRuCRqDd@gJ~@sOPmBHcBD{@Z_FReDPwCLeBNkBJqARiBP_BLgATyAVoBbAeGr@oD^yBz@mEhB}IToAZ}AX_BrA_H"
+            },
+            "start_location": {
+              "lat": 37.1138212,
+              "lng": 37.3235227
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "0.4 km",
+              "value": 396
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 24
+            },
+            "end_location": {
+              "lat": 37.0136753,
+              "lng": 37.3126395
+            },
+            "html_instructions": "Take the exit toward <b>Gaziantep Çevre Yolu Gaziantep Güney Bağlantısı</b>",
+            "maneuver": "ramp-right",
+            "polyline": {
+              "points": "qv|`FctvbFn@wALWLUPUNQXWTOVKTITEVAZ?ZBRBLDXJXNVRLLJNJNJPFNHRDNDNDVDXDb@"
+            },
+            "start_location": {
+              "lat": 37.0162472,
+              "lng": 37.3128226
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "57 m",
+              "value": 57
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 6
+            },
+            "end_location": {
+              "lat": 37.0136447,
+              "lng": 37.3119964
+            },
+            "html_instructions": "Continue onto <b>Gaziantep Çevre Yolu Gaziantep Güney Bağlantısı</b>",
+            "polyline": {
+              "points": "of|`F_svbFBz@BbA"
+            },
+            "start_location": {
+              "lat": 37.0136753,
+              "lng": 37.3126395
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "61 m",
+              "value": 61
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 13
+            },
+            "end_location": {
+              "lat": 37.013601,
+              "lng": 37.311312
+            },
+            "html_instructions": "Keep <b>left</b> to stay on <b>Gaziantep Çevre Yolu Gaziantep Güney Bağlantısı</b>",
+            "maneuver": "keep-left",
+            "polyline": {
+              "points": "gf|`F_ovbFFhC"
+            },
+            "start_location": {
+              "lat": 37.0136447,
+              "lng": 37.3119964
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "1.0 km",
+              "value": 1010
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 72
+            },
+            "end_location": {
+              "lat": 37.004669,
+              "lng": 37.311884
+            },
+            "html_instructions": "Turn <b>left</b> at the 1st cross street onto <b>Halep Blv.</b>",
+            "maneuver": "turn-left",
+            "polyline": {
+              "points": "_f|`FujvbF?`@TA^?xCMhAGbBItBEnEOdBGdBG|@Cr@CxCKxEQrAExBGdBG`@El@I"
+            },
+            "start_location": {
+              "lat": 37.013601,
+              "lng": 37.311312
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "12.4 km",
+              "value": 12395
+            },
+            "duration": {
+              "text": "10 mins",
+              "value": 608
+            },
+            "end_location": {
+              "lat": 36.9220493,
+              "lng": 37.3880932
+            },
+            "html_instructions": "At the roundabout, take the <b>2nd</b> exit",
+            "maneuver": "roundabout-right",
+            "polyline": {
+              "points": "enz`FgnvbF@?@A@?@?@?@A@?@A@A@??A@A@A@A?A@C?A@A?A?C@A?A?C?A?C?AAC?A?AAA?AKoGC{@Ay@Bg@@e@Fe@D]R{A\\mCRgAPeAb@oBv@yCt@mCX}@^cA\\y@b@w@Zi@fAyAV]`B}B`GoIbAwAp@cAbAyAf@u@z@kA~@oAt@eArIiL\\c@j@w@n@aAh@s@Xa@Ze@h@aA^y@N]DM~@oChBkGDKj@oBfEiNlC_J~AiFbC}H`@oAv@sCzEsOjBaGr@}BDOFUNk@Je@Jq@Ju@PwBHiAZoEHy@DYHc@VaAZeALa@\\kA^mAf@{ARc@Ta@PYjA_B|A}BnDaF~@qAhD_FbJqN|@uArCqEtAsBpCmEzBkDfBiCh@o@`DsDj@o@vBaCTSRQt@k@xBmAhCsAlBeArBeAvAw@~EmClBgAbBeA~AcAzBoAx@_@`@OVI~CcAhBi@jA]x@Yl@[h@[v@m@dAeAdAeAv@w@rBwBBC`AeAhBiBtDsDd@g@rDsDNOh@i@pAyAt@_AFIlAkB~@{ADGNUp@w@f@k@h@_@jAe@pCkAhBu@vB_AtB}@zBaAt@Y`@QdAg@lDwAtDwAtAk@HCbL_F|@_@pD_BhAe@xAm@dBs@jFyBn@W~Aq@nAg@bBs@v@]b@QpBy@l@Uh@S|@YnAc@pAe@`Bk@hBq@rAe@XKLEd@Oj@Uh@M`@KXI`@Ed@E~@G|@G|AIhBGpBIbBIdBEpACzEUvAEpAEfAEn@CjACrAElAClAAdAAlB?`A?hA@|A@dB?fBBxB?zC@xB@hDDj@@jC@`@@~U^b@@"
+            },
+            "start_location": {
+              "lat": 37.004669,
+              "lng": 37.311884
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "65 m",
+              "value": 65
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 6
+            },
+            "end_location": {
+              "lat": 36.9214679,
+              "lng": 37.38800519999999
+            },
+            "html_instructions": "Continue straight",
+            "maneuver": "straight",
+            "polyline": {
+              "points": "yij`FqjecFjANH@J?PA"
+            },
+            "start_location": {
+              "lat": 36.9220493,
+              "lng": 37.3880932
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "34.4 km",
+              "value": 34445
+            },
+            "duration": {
+              "text": "23 mins",
+              "value": 1379
+            },
+            "end_location": {
+              "lat": 36.7082924,
+              "lng": 37.1511199
+            },
+            "html_instructions": "Turn <b>right</b> onto <b>Gaziantep Kilis Yolu</b>/<b>D850</b>",
+            "maneuver": "turn-right",
+            "polyline": {
+              "points": "efj`FajecF^z@v@nAlApBjBvCtBjCjJjKnCrChMnMvG~GlJbL~C`FvBbDlIbOrMvUtBtDtI|Nx@tA`BbCb@j@TXrAdB~AfBpEhElDjCvEbDzF|C~KpElBt@~GnC~F|BdXbLfBx@dCzAHBHDD@`@PD@RJJFhJzCzQhHrS`HbBd@`EhAf[`IjHdBzQlE~Ad@xTrFfM~Cl\\hItA\\bFpA|Ad@d@PjA`@v@\\h@JhG|@xB`@vCp@dBb@|A`@|@RrD~@fNdDjE|@lBd@bHjBfQfFpHxBfZjJlH|BxLtDfLvEjDdBvDvCdEjDJJHHB@zBrB|@t@pAdAn@j@v@z@p@t@`ArArAlB~DlGnQrXxGdKXb@zCzE~NjUnGtJjBtClDlFzAtBpBhCJNbAhAjApAjAnAnAnA|@|@`A|@jB`BbKxIj@^@@\\PzFnCpMjIbIbFbDtBnRvL`EfClCdB|KfH`Al@dAt@vDzBbBfA`BdAtA~@pA`AjA|@\\X`@X?@TPvBlB|@z@|@|@VVn@p@lArAf@l@v@`AZ`@JLh@r@r@`An@bAl@z@j@|@|@rAv@nA`AzA|@tA\\h@DFV`@~@vAxBnD|AdCl@`A|BrDvAzBpCnEzC|EfEvGd@v@|@tA@D|AbCdAjB|@|AvArCFNvA|ChAnCd@jA~@fCfAxCFPnBlFfCdHv@tBbAtCxA|DjCvHz@`CbAjCv@~B`AnCt@tBhA|CfAxCrApDBHhA|Cd@rAp@dBnDvJ`@dAh@hA\\n@`@r@t@pAj@v@z@nA|@|@`BzAhCfBl@b@n@^bAf@vAn@dBt@~@\\tCjAdFnBvJpDl@TxAh@rAf@pAf@pBv@dAb@dAd@l@VpAl@nAt@hBnArB`BNLlBvBt@~@r@nAlBfDr@~AdA`C|BjFzArCfA~AvBxBd@\\nAz@vBtAjC`AdCj@|Or@xDTdBRbCf@dAVhAZ|@^~@`@h@TnBfAvA~@vCdClCxC~KrOdIrLd@n@rBlCjBjCdCvCfBbBhBzAxB`BjA`ArBlAnF`CrNnFvBdAdC`BxAnA`BjBhAbBhAlBfAhCzB`GrCjHHRHTtHhR`BhEl@|At@bD\\bCv@~K\\lFTdCVjB`@~BDJd@tBj@pBn@`BN`@h@zA\\n@zFzK`JbQFJDJtCrFbGfLdAfBpCzE`@p@`A`B~@bBhAjC^`Aj@~A~@fD`@jBtBpNdCjUHt@vBnRl@xEvAhKp@hFz@bG`@~DJbAJnB@dAUxDOxBGj@aBxLaAvHgB~LaEbX_ChOmAdIc@xCSrAIf@GXGl@Ij@a@xC[fCGd@QnASlC"
+            },
+            "start_location": {
+              "lat": 36.9214679,
+              "lng": 37.38800519999999
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "1.8 km",
+              "value": 1847
+            },
+            "duration": {
+              "text": "3 mins",
+              "value": 202
+            },
+            "end_location": {
+              "lat": 36.7122559,
+              "lng": 37.13107
+            },
+            "html_instructions": "Slight <b>right</b> onto <b>Org. Safter Necioğlu Blv.</b>",
+            "maneuver": "turn-slight-right",
+            "polyline": {
+              "points": "yq`_FoawaFOVINQ|@M~@OjAK|Bo@rJUzD]lGk@bJWfCs@xESrA[zBWrAS~AUbBaAhGM`AeAtHERWbBWdBm@nEw@lF[`Cg@lD"
+            },
+            "start_location": {
+              "lat": 36.7082924,
+              "lng": 37.1511199
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "0.5 km",
+              "value": 522
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 73
+            },
+            "end_location": {
+              "lat": 36.7140859,
+              "lng": 37.1257301
+            },
+            "html_instructions": "Continue onto <b>İnönü Blv.</b>",
+            "polyline": {
+              "points": "sja_FedsaFEXGf@q@jF]rBCPOfAGZO|@Yz@mA`DEJEHoB`F"
+            },
+            "start_location": {
+              "lat": 36.7122559,
+              "lng": 37.13107
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "0.3 km",
+              "value": 252
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 39
+            },
+            "end_location": {
+              "lat": 36.715531,
+              "lng": 37.123558
+            },
+            "html_instructions": "Continue straight onto <b>Zekeriye Kormaz Blv.</b>",
+            "maneuver": "straight",
+            "polyline": {
+              "points": "ava_FybraFEHyGfL"
+            },
+            "start_location": {
+              "lat": 36.7140859,
+              "lng": 37.1257301
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "0.8 km",
+              "value": 823
+            },
+            "duration": {
+              "text": "3 mins",
+              "value": 194
+            },
+            "end_location": {
+              "lat": 36.7165521,
+              "lng": 37.1146912
+            },
+            "html_instructions": "At the roundabout, take the <b>2nd</b> exit onto <b>Cumhuriyet Cd.</b>",
+            "maneuver": "roundabout-right",
+            "polyline": {
+              "points": "a_b_FguqaFE?C?E?C@CBCBADCB?DAD?DITELAFAFA@ALCJUhAIl@e@tEU|BOv@Mt@Gd@e@hEKrAEd@E\\@PLrFDhBBn@TjFBh@"
+            },
+            "start_location": {
+              "lat": 36.715531,
+              "lng": 37.123558
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "7 m",
+              "value": 7
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 2
+            },
+            "end_location": {
+              "lat": 36.7164893,
+              "lng": 37.1147139
+            },
+            "html_instructions": "Turn <b>left</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+            "maneuver": "turn-left",
+            "polyline": {
+              "points": "meb_Fy}oaFJC"
+            },
+            "start_location": {
+              "lat": 36.7165521,
+              "lng": 37.1146912
+            },
+            "travel_mode": "DRIVING"
+          }
+        ],
+        "via_waypoint": [
+
+        ]
+      }
+    ],
+    "overview_polyline": {
+      "points": "y{idFmnj`FzA{Rv^jEpFhBlAaA`@sFlQos@jFu\\pJmu@vIg[vK{RNOD[pBuCbQmQrYiWbUa[|Vs\\dBqB`KqMbScUjKwNfg@mp@JIFQvO}S~RuSvQwQPM|KmMdc@yc@pM_K~`@mUzY{QdM_LjhA_fA~GmH|DsHxOgn@fUwz@ti@epBvNoe@xa@kt@nD_GlL}NhZsV`ZaWzKcNfe@{~@|Vkd@fEyFb\\wc@hMwNnlAip@lWqNlUgItM{AlKKfTZ|KbCxE`CxIfBjMU|^qIfZyEnPS`b@`Hfd@bGrHD`C[pJuDpXgRrW{PlNcH|IyCpUeFzNgBl\\{D|vCy]zm@yGlXkBfi@_DlBI|\\oBp\\FtHIjIeB~FqDfE_FjE{J~AiJReJuCiYeAiVd@yKfCwLhCgHjNcTbUq]lGaUhBeQr@{rB|AkNrBwHnDqHhFeI~K}Iho@m^pYmP`QcQlM}RdIoTrEmQlEsYdJyp@fIg\\xXkh@nLwZlJ{MhOwInFiBfDQhHfBdQnKva@dU~r@`\\lDbA`GPtK{@p}@q\\|[qMvl@iY|]aQr{@s`@`Z}LrJcBps@sNzMiB|E{BvLgMbgAs|@h^_YxTiInSoCtOeFfQ{KhNgObZqj@`JeQnC_GvGmJ`DqCv@g@r@SpCfCbGtFjm@t\\|JvDlJv@tIq@z_@sIrTs@fLfA~KrCtw@zU~WfLvYhQ`c@|R~UvJru@`UbNhLlEpHxM`\\vNpZpJ|MvFdGr`@j\\vMhHfNpBvIo@lKyDxFcFlDaFdDoIhC}M`Cq\\xEuw@dCg^`Hob@tDkR~CeLlDmBrDjAfAlCR|DFjDt@A|Le@xMc@jXgALCPc@QaMjCqQfDiLdDuFxScZfSsXjHuRz[yeA`F_RdCqSnDwJxb@ko@jMwRnJuK|SwL`WiNnKeDtEkD|ReSjOyQnBaCpJgEjZcMzv@a\\xYsJvk@{Bzo@NxYr@tBhCzS`X~e@fh@~p@jjAnFnHvT`R|hAlf@jMnEto@zTnz@zSlnAd[l[bHpdAjXtc@hN`ZlKtPtLrLxKtz@tqAr[dd@xXxVn`@pUbb@zWja@vWtKlJzVf]pg@px@jNnZhT`m@t]v_A~DlGvIdHdb@xPxQhH~JtGfFtGdJtR`IjKfEpCpGlB`]dClGtBhKbHx[pc@lMtObLlI`^xOnIlK`JjUnMf\\hDt\\tA|JpCjJla@~w@zHvMtEpK`BrGzF|d@fGhg@zCpVWhNgUj~A}BvP{BlQoC`d@{BpPuFp_@aG`c@wDpOiL~SkAjFyCjXNlKh@`I"
+    },
+    "summary": "Gaziantep Kahramanmaraş Yolu/D835 and Gaziantep Kilis Yolu/D850",
+    "warnings": [
+
+    ],
+    "waypoint_order": [
+
+    ]
+  }
+]

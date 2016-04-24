@@ -1,0 +1,99 @@
+[
+  {
+    "bounds": {
+      "northeast": {
+        "lat": 40.1506896,
+        "lng": 25.7853511
+      },
+      "southwest": {
+        "lat": 40.1488099,
+        "lng": 25.7739365
+      }
+    },
+    "copyrights": "Map data ©2016 Google",
+    "legs": [
+      {
+        "distance": {
+          "text": "1.1 km",
+          "value": 1094
+        },
+        "duration": {
+          "text": "2 mins",
+          "value": 104
+        },
+        "end_address": "Dereköy Köyü Yolu, 17760 Dereköy Şahinkaya/Gökçeada/Çanakkale, Turkey",
+        "end_location": {
+          "lat": 40.1506896,
+          "lng": 25.7739365
+        },
+        "start_address": "Dereköy İç Yolu, 17760 Dereköy Şahinkaya/Gökçeada/Çanakkale, Turkey",
+        "start_location": {
+          "lat": 40.1502706,
+          "lng": 25.7853511
+        },
+        "steps": [
+          {
+            "distance": {
+              "text": "0.8 km",
+              "value": 788
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 54
+            },
+            "end_location": {
+              "lat": 40.1504662,
+              "lng": 25.7773733
+            },
+            "html_instructions": "Head <b>southwest</b>",
+            "polyline": {
+              "points": "ez`tFmek|CDRZrATtAPnAHv@D~@B\\FZDLDJHNRb@`@x@Pd@J\\DPHb@Hh@Jx@f@rDD^A^O|@WjAIh@]rAQn@[n@[Z_BpAu@p@YX"
+            },
+            "start_location": {
+              "lat": 40.1502706,
+              "lng": 25.7853511
+            },
+            "travel_mode": "DRIVING"
+          },
+          {
+            "distance": {
+              "text": "0.3 km",
+              "value": 306
+            },
+            "duration": {
+              "text": "1 min",
+              "value": 50
+            },
+            "end_location": {
+              "lat": 40.1506896,
+              "lng": 25.7739365
+            },
+            "html_instructions": "Turn <b>left</b>",
+            "maneuver": "turn-left",
+            "polyline": {
+              "points": "m{`tFqsi|C?`@C`@@h@Dv@H|@DrABhBInCEd@AREPGJMPSPA?"
+            },
+            "start_location": {
+              "lat": 40.1504662,
+              "lng": 25.7773733
+            },
+            "travel_mode": "DRIVING"
+          }
+        ],
+        "via_waypoint": [
+
+        ]
+      }
+    ],
+    "overview_polyline": {
+      "points": "ez`tFmek|C`@fBf@dDNvBJx@h@lAr@~APn@fAzHD^A^g@hCg@|BQn@[n@{BlBoAjACbAF`BH|@DrABhBInCGx@M\\a@b@A?"
+    },
+    "summary": "",
+    "warnings": [
+
+    ],
+    "waypoint_order": [
+
+    ]
+  }
+]
