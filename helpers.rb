@@ -17,7 +17,7 @@ def create_matrix(field_name, matrix_json, result_file_name)
 	to_city_ids = matrix_json.map { |x| x['to_id'] }.uniq.sort
 
 	max_length 			= get_max_name_length(matrix_json, 'to_name')
-	number_distance = 2
+	number_distance = get_max_id_length(matrix_json, 'to_id')
 	value_length    = 9
 	blank_distance 	= max_length + number_distance + 1
 	(1..max_length).each do |i|
@@ -65,7 +65,7 @@ def create_matrix_for_float(field_name, matrix_json, result_file_name)
 	to_city_ids = matrix_json.map { |x| x['to_id'] }.uniq.sort
 
 	max_length 			= get_max_name_length(matrix_json, 'to_name')
-	number_distance = 2
+	number_distance = get_max_id_length(matrix_json, 'to_id')
 	value_length    = 13
 	blank_distance 	= max_length + number_distance + 1
 	(1..max_length).each do |i|
@@ -107,14 +107,15 @@ end
 
 def create_coordination(locations_json, result_file_name)
 	clear_result_file result_file_name
-	max_name = get_max_name_length(locations_json)
+	max_name 				= get_max_name_length(locations_json)
+	number_distance = get_max_id_length(locations_json)
 	val  = "%#{max_name}s  " % ['Şehir']
-	val += '%12s   ' % ['X(Enlem)']
-	val += '%12s   ' % ['Y(Boylam)']
+	val += '%14s' % ['X(Enlem)']
+	val += '%14s' % ['Y(Boylam)']
 	write_result_file(val, result_file_name)
 
 	locations_json.each do |city|
-		val = "%#{max_name}s %02d" % [ get_name(city), city['id'] ]
+		val = "%#{max_name}s %0#{number_distance}d" % [ get_name(city), city['id'] ]
 		val += '%#13s' % [( '%.7f' % city['lattitude']).to_s ]
 		val += '%#13s' % [( '%.7f' % city['longitude']).to_s ]
 		write_result_file(val, result_file_name)
@@ -124,9 +125,15 @@ end
 
 def get_max_name_length(locations_json, field_name = 'name')
 	location = locations_json.max_by{|b| b[field_name].length }
-	get_name(location, field_name).length
+	get_name(location, field_name).length + 1
+end
+
+def get_max_id_length(locations_json, field_name = 'id')
+	location = locations_json.max_by{|b| b[field_name].to_s.length }
+	location[field_name].to_s.length
 end
 
 def get_name(location, field_name = 'name')
-	location[field_name].split(',')[0]
+	arr = location[field_name].split(',')
+	arr[0] + arr[1]
 end
