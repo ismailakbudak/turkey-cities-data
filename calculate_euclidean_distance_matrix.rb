@@ -1,6 +1,6 @@
 require 'json'
 
-def calculate(locations_json, locations_dd_matrix_json)
+def calculate_euclidean_distance_matrix(locations_json, locations_dd_matrix_json)
 	locations = JSON.parse(File.read(locations_json))
 	matrix 		= JSON.parse(File.read(locations_dd_matrix_json))
 
@@ -26,7 +26,7 @@ if __FILE__ == $0
 	if ARGV.length == 1
 		locations_json = "./data/#{ARGV[0]}.json"
 		locations_dd_matrix_json = "./data/#{ARGV[0]}-dd-matrix.json"
-		calculate locations_json, locations_dd_matrix_json
+		calculate_euclidean_distance_matrix locations_json, locations_dd_matrix_json
 	else
 		puts 'You should enter yml file name existing in data directory'
 	end

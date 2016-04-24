@@ -2,7 +2,7 @@ require 'json'
 require './helpers'
 require 'fileutils'
 
-def create(parameter)
+def write_results(parameter)
   root = "./result/#{parameter}"
   unless File.directory?(root)
     FileUtils.mkdir_p(root)
@@ -28,7 +28,7 @@ end
 
 if __FILE__ == $0
   if ARGV.length == 1
-    create ARGV[0]
+    write_results ARGV[0]
   else
     puts 'You should enter json file name existing in data directory'
   end

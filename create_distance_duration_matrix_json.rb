@@ -1,6 +1,6 @@
 require 'json'
 
-def calculate(locations_json, matrix_json, path_directory, parameter)
+def create_distance_duration_matrix_json(locations_json, matrix_json, path_directory, parameter)
 
 	locations = JSON.parse(File.read(locations_json))
 	matrix = []
@@ -38,7 +38,7 @@ if __FILE__ == $0
 		locations_json 	= "./data/#{ARGV[0]}.json"
 		matrix_json 		= "./data/#{ARGV[0]}-dd-matrix.json"
 		path_directory 	= "./data/#{ARGV[0]}"
-		calculate locations_json, matrix_json, path_directory, ARGV[0]
+		create_distance_duration_matrix_json locations_json, matrix_json, path_directory, ARGV[0]
 	else
 		puts 'You should enter json file name existing in data directory'
 	end

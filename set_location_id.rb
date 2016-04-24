@@ -1,6 +1,6 @@
 require 'json'
 
-def set_id file_json
+def set_location_id file_json
 
   locations = JSON.parse(File.read(file_json))
   id = 1
@@ -17,7 +17,7 @@ end
 if __FILE__ == $0
   if ARGV.length == 1
     file_json = "./data/#{ARGV[0]}.json"
-    set_id file_json
+    set_location_id file_json
   else
     puts 'You should enter json file name existing in data directory'
   end
