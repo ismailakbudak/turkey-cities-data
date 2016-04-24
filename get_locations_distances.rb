@@ -9,7 +9,9 @@ def get_locations_distances locations_json, path_directory, parameter
 
 	unless File.directory?(path_directory)
 		FileUtils.mkdir_p(path_directory)
-	end 
+	end
+
+	#select{|c| c["id"] >= 0 and c["id"] <= 81 }
 	locations.each do |location|
 
 		root = "#{path_directory}/#{location['id']}"
