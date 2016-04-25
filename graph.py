@@ -284,7 +284,7 @@ class Graph(object):
         #nodes.txt => node_id capacity
         #edges.txt => node_id node_id 
         try:
-            with open('./data/cities.json') as data_file:    
+            with open('./data/turkey-cities.json') as data_file:
                 cities = json.load(data_file)
              
             for city in cities: 
