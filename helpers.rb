@@ -135,5 +135,5 @@ end
 
 def get_name(location, field_name = 'name')
 	arr = location[field_name].split(',')
-	arr[0] + arr[1]
+	"#{arr[0]} #{arr[1]}"
 end
