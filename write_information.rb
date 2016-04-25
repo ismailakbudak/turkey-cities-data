@@ -65,7 +65,7 @@ def write_mode_field(locations, field_name)
 
 end
 
-def find_freak_data(matrix_json, result_file, parameter)
+def write_information(matrix_json, result_file, parameter)
 
   clear_result_file result_file
 
@@ -106,7 +106,7 @@ if __FILE__ == $0
   if ARGV.length == 1
     matrix_json = "./data/#{ARGV[0]}-dd-matrix.json"
     result_file = "./result/#{ARGV[0]}/general.txt"
-    find_freak_data matrix_json, result_file, ARGV[0]
+    write_information matrix_json, result_file, ARGV[0]
   else
     puts 'You should enter json file name existing in data directory'
   end
