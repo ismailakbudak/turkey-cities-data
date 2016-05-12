@@ -4,7 +4,8 @@ def calculate_circuity_factor_matrix(matrix_json)
 	matrix = JSON.parse(File.read(matrix_json))
 
 	matrix.each do |value|
-		distance = value['distance'].to_f
+		# Convert meter distance to kilometer
+		distance = value['distance'].to_f / 1000
 		euclidean_distance = value['euclidean_distance'].to_f
 		if distance == 0
 			circuity_factor = 0
