@@ -6,6 +6,7 @@ GEM
       hurley (~> 0.1)
       multi_json (~> 1.11)
       retriable (~> 2.0)
+    haversine (0.3.0)
     hurley (0.2)
     multi_json (1.11.2)
     retriable (2.1.0)
@@ -19,6 +20,7 @@ PLATFORMS
 DEPENDENCIES
   geokit (~> 1.10)
   google_maps_service (~> 0.4.1)
+  haversine
   spreadsheet (~> 1.1, >= 1.1.2)
 
 BUNDLED WITH

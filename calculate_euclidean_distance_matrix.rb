@@ -1,4 +1,5 @@
 require 'json'
+require 'haversine'
 
 def calculate_euclidean_distance_matrix(locations_json, locations_dd_matrix_json)
 	locations = JSON.parse(File.read(locations_json))
@@ -10,10 +11,10 @@ def calculate_euclidean_distance_matrix(locations_json, locations_dd_matrix_json
 		if from.nil? or to.nil?
 			puts value.inspect
 		else
-			x = (from['lattitude'].to_f - to['lattitude'].to_f) ** 2
-			y = (from['longitude'].to_f - to['longitude'].to_f) ** 2
-			euclidean_distance = Math.sqrt( x + y )
-			value['euclidean_distance'] = euclidean_distance
+			# X(latitude), Y(longitude)
+			loc1 = from['lattitude'].to_f, from['longitude'].to_f
+			loc2 = to['lattitude'].to_f, to['longitude'].to_f
+			value['euclidean_distance'] = Haversine.distance(loc1, loc2).to_km
 		end
 	end
 
