@@ -26,14 +26,14 @@ sheet0.each do |row|
   		city_name = names[index][0]
 
   		city_name = city_name.split('-')[0] 
-		city = cities.select{|c| c['name'] ==  city_name }.first
+		city = cities.select{|c| c['name'].include?  city_name }.first
 	  	if city.nil?
 	  		puts city_name
 	  	else		
 			if city['populations'].nil?
 	  			city['populations'] = []
 	  		end
-  			population = city['populations'].select{|c| c['year'] ==  year }.first
+  			population = city['populations'].select{|c| c[:year] == year.to_s or c['year'] ==  year.to_s }.first
   			if population.nil?
   				population = {
 							'year': year
@@ -58,11 +58,11 @@ sheet1.each do |row|
   		number = numbers[index][0]
   		city_name = names[index][0]
   		city_name = city_name.split('-')[0] 
-		city = cities.select{|c| c['name'] ==  city_name }.first
+		city = cities.select{|c| c['name'].include?  city_name }.first
 	  	if city.nil?
 	  		puts city_name.inspect
 	  	else
-  			population = city['populations'].select{|c| c['year'] ==  year }.first
+  			population = city['populations'].select{|c| c[:year] == year.to_s or c['year'] ==  year.to_s }.first
   			if population.nil?
   				puts city['name']
   			else

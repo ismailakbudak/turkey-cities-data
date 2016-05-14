@@ -3,48 +3,568 @@
     "name": "İzmir, Türkiye",
     "lattitude": "38.423734",
     "longitude": "27.142826",
-    "id": 1
+    "id": 1,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 1872579,
+        "female": 1866774,
+        "total_in_city": 3739353,
+        "rate_over_total": 5.297565293730836
+      },
+      {
+        "year": "2008",
+        "male": 1897792,
+        "female": 1898186,
+        "total_in_city": 3795978,
+        "rate_over_total": 5.307790724176456
+      },
+      {
+        "year": "2009",
+        "male": 1933681,
+        "female": 1934627,
+        "total_in_city": 3868308,
+        "rate_over_total": 5.331088831469861
+      },
+      {
+        "year": "2010",
+        "male": 1985368,
+        "female": 1963480,
+        "total_in_city": 3948848,
+        "rate_over_total": 5.356332003255212
+      },
+      {
+        "year": "2011",
+        "male": 1979088,
+        "female": 1986144,
+        "total_in_city": 3965232,
+        "rate_over_total": 5.306484831587981
+      },
+      {
+        "year": "2012",
+        "male": 1999246,
+        "female": 2006213,
+        "total_in_city": 4005459,
+        "rate_over_total": 5.296307750113371
+      },
+      {
+        "year": "2013",
+        "male": 2027334,
+        "female": 2033740,
+        "total_in_city": 4061074,
+        "rate_over_total": 5.296970318620067
+      },
+      {
+        "year": "2014",
+        "male": 2050424,
+        "female": 2062648,
+        "total_in_city": 4113072,
+        "rate_over_total": 5.2938080236507705
+      },
+      {
+        "year": "2015",
+        "male": 2078224,
+        "female": 2090191,
+        "total_in_city": 4168415,
+        "rate_over_total": 5.293826842777935
+      }
+    ]
   },
   {
     "name": "Manisa, Türkiye",
     "lattitude": "38.6140337",
     "longitude": "27.4295624",
-    "id": 2
+    "id": 2,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 667061,
+        "female": 652859,
+        "total_in_city": 1319920,
+        "rate_over_total": 1.869939099759024
+      },
+      {
+        "year": "2008",
+        "male": 656051,
+        "female": 660699,
+        "total_in_city": 1316750,
+        "rate_over_total": 1.8411680563110082
+      },
+      {
+        "year": "2009",
+        "male": 669724,
+        "female": 662233,
+        "total_in_city": 1331957,
+        "rate_over_total": 1.835629708569768
+      },
+      {
+        "year": "2010",
+        "male": 714064,
+        "female": 665420,
+        "total_in_city": 1379484,
+        "rate_over_total": 1.87117212340878
+      },
+      {
+        "year": "2011",
+        "male": 671361,
+        "female": 668713,
+        "total_in_city": 1340074,
+        "rate_over_total": 1.7933584602881831
+      },
+      {
+        "year": "2012",
+        "male": 673700,
+        "female": 672462,
+        "total_in_city": 1346162,
+        "rate_over_total": 1.7799928131852345
+      },
+      {
+        "year": "2013",
+        "male": 682097,
+        "female": 677366,
+        "total_in_city": 1359463,
+        "rate_over_total": 1.7731849161729614
+      },
+      {
+        "year": "2014",
+        "male": 686379,
+        "female": 681526,
+        "total_in_city": 1367905,
+        "rate_over_total": 1.7605883059163583
+      },
+      {
+        "year": "2015",
+        "male": 691955,
+        "female": 688411,
+        "total_in_city": 1380366,
+        "rate_over_total": 1.7530448824452476
+      }
+    ]
   },
   {
     "name": "Aydın, Türkiye",
     "lattitude": "37.8380162",
     "longitude": "27.8455601",
-    "id": 3
+    "id": 3,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 473481,
+        "female": 473490,
+        "total_in_city": 946971,
+        "rate_over_total": 1.341579867899496
+      },
+      {
+        "year": "2008",
+        "male": 482434,
+        "female": 483066,
+        "total_in_city": 965500,
+        "rate_over_total": 1.3500267768128182
+      },
+      {
+        "year": "2009",
+        "male": 489857,
+        "female": 489298,
+        "total_in_city": 979155,
+        "rate_over_total": 1.3494174416250908
+      },
+      {
+        "year": "2010",
+        "male": 495363,
+        "female": 494499,
+        "total_in_city": 989862,
+        "rate_over_total": 1.342677537703708
+      },
+      {
+        "year": "2011",
+        "male": 499194,
+        "female": 499969,
+        "total_in_city": 999163,
+        "rate_over_total": 1.3371331876127153
+      },
+      {
+        "year": "2012",
+        "male": 502337,
+        "female": 504204,
+        "total_in_city": 1006541,
+        "rate_over_total": 1.3309213498644883
+      },
+      {
+        "year": "2013",
+        "male": 510512,
+        "female": 510445,
+        "total_in_city": 1020957,
+        "rate_over_total": 1.3316622463878738
+      },
+      {
+        "year": "2014",
+        "male": 519900,
+        "female": 522079,
+        "total_in_city": 1041979,
+        "rate_over_total": 1.3410990108307383
+      },
+      {
+        "year": "2015",
+        "male": 525267,
+        "female": 528239,
+        "total_in_city": 1053506,
+        "rate_over_total": 1.3379374035041163
+      }
+    ]
   },
   {
     "name": "Denizli, Türkiye",
     "lattitude": "37.7830159",
     "longitude": "29.0963328",
-    "id": 4
+    "id": 4,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 453756,
+        "female": 453569,
+        "total_in_city": 907325,
+        "rate_over_total": 1.2854131263173953
+      },
+      {
+        "year": "2008",
+        "male": 458787,
+        "female": 459049,
+        "total_in_city": 917836,
+        "rate_over_total": 1.2833797791017814
+      },
+      {
+        "year": "2009",
+        "male": 462914,
+        "female": 463448,
+        "total_in_city": 926362,
+        "rate_over_total": 1.2766610394255276
+      },
+      {
+        "year": "2010",
+        "male": 464104,
+        "female": 467719,
+        "total_in_city": 931823,
+        "rate_over_total": 1.263951754098735
+      },
+      {
+        "year": "2011",
+        "male": 470027,
+        "female": 472251,
+        "total_in_city": 942278,
+        "rate_over_total": 1.2610066483219795
+      },
+      {
+        "year": "2012",
+        "male": 473041,
+        "female": 477516,
+        "total_in_city": 950557,
+        "rate_over_total": 1.2568952537086302
+      },
+      {
+        "year": "2013",
+        "male": 480224,
+        "female": 483240,
+        "total_in_city": 963464,
+        "rate_over_total": 1.2566725479661205
+      },
+      {
+        "year": "2014",
+        "male": 487958,
+        "female": 490742,
+        "total_in_city": 978700,
+        "rate_over_total": 1.2596545629998719
+      },
+      {
+        "year": "2015",
+        "male": 494808,
+        "female": 498634,
+        "total_in_city": 993442,
+        "rate_over_total": 1.261656991048875
+      }
+    ]
   },
   {
     "name": "Kütahya, Türkiye",
     "lattitude": "39.4199547",
     "longitude": "29.985732",
-    "id": 5
+    "id": 5,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 296167,
+        "female": 287743,
+        "total_in_city": 583910,
+        "rate_over_total": 0.8272290288353018
+      },
+      {
+        "year": "2008",
+        "male": 280370,
+        "female": 285514,
+        "total_in_city": 565884,
+        "rate_over_total": 0.7912569161780889
+      },
+      {
+        "year": "2009",
+        "male": 285911,
+        "female": 285893,
+        "total_in_city": 571804,
+        "rate_over_total": 0.7880287500865476
+      },
+      {
+        "year": "2010",
+        "male": 305634,
+        "female": 284862,
+        "total_in_city": 590496,
+        "rate_over_total": 0.800965907675907
+      },
+      {
+        "year": "2011",
+        "male": 279162,
+        "female": 285102,
+        "total_in_city": 564264,
+        "rate_over_total": 0.7551281632477395
+      },
+      {
+        "year": "2012",
+        "male": 284909,
+        "female": 288512,
+        "total_in_city": 573421,
+        "rate_over_total": 0.7582187425655237
+      },
+      {
+        "year": "2013",
+        "male": 283574,
+        "female": 288485,
+        "total_in_city": 572059,
+        "rate_over_total": 0.7461522600916598
+      },
+      {
+        "year": "2014",
+        "male": 282810,
+        "female": 288744,
+        "total_in_city": 571554,
+        "rate_over_total": 0.7356295127218032
+      },
+      {
+        "year": "2015",
+        "male": 282816,
+        "female": 288647,
+        "total_in_city": 571463,
+        "rate_over_total": 0.7257497559754503
+      }
+    ]
   },
   {
     "name": "Afyonkarahisar, Türkiye",
     "lattitude": "38.7568852",
     "longitude": "30.5387038",
-    "id": 6
+    "id": 6,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 348589,
+        "female": 352983,
+        "total_in_city": 701572,
+        "rate_over_total": 0.9939215362265423
+      },
+      {
+        "year": "2008",
+        "male": 345899,
+        "female": 351466,
+        "total_in_city": 697365,
+        "rate_over_total": 0.9751024580135379
+      },
+      {
+        "year": "2009",
+        "male": 348194,
+        "female": 353132,
+        "total_in_city": 701326,
+        "rate_over_total": 0.9665288301292017
+      },
+      {
+        "year": "2010",
+        "male": 344822,
+        "female": 352737,
+        "total_in_city": 697559,
+        "rate_over_total": 0.9461892673151012
+      },
+      {
+        "year": "2011",
+        "male": 347311,
+        "female": 351315,
+        "total_in_city": 698626,
+        "rate_over_total": 0.934938553898734
+      },
+      {
+        "year": "2012",
+        "male": 348548,
+        "female": 355400,
+        "total_in_city": 703948,
+        "rate_over_total": 0.930810987723706
+      },
+      {
+        "year": "2013",
+        "male": 351007,
+        "female": 356116,
+        "total_in_city": 707123,
+        "rate_over_total": 0.9223199435946201
+      },
+      {
+        "year": "2014",
+        "male": 350370,
+        "female": 356001,
+        "total_in_city": 706371,
+        "rate_over_total": 0.9091483123743563
+      },
+      {
+        "year": "2015",
+        "male": 351993,
+        "female": 357022,
+        "total_in_city": 709015,
+        "rate_over_total": 0.9004388092193789
+      }
+    ]
   },
   {
     "name": "Uşak, Türkiye",
     "lattitude": "38.6742286",
     "longitude": "29.4058825",
-    "id": 7
+    "id": 7,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 165235,
+        "female": 168880,
+        "total_in_city": 334115,
+        "rate_over_total": 0.47334285586701186
+      },
+      {
+        "year": "2008",
+        "male": 165506,
+        "female": 168605,
+        "total_in_city": 334111,
+        "rate_over_total": 0.46717638159265407
+      },
+      {
+        "year": "2009",
+        "male": 166944,
+        "female": 168916,
+        "total_in_city": 335860,
+        "rate_over_total": 0.4628637365322171
+      },
+      {
+        "year": "2010",
+        "male": 168064,
+        "female": 169955,
+        "total_in_city": 338019,
+        "rate_over_total": 0.458498779241015
+      },
+      {
+        "year": "2011",
+        "male": 169343,
+        "female": 170388,
+        "total_in_city": 339731,
+        "rate_over_total": 0.4546461337748249
+      },
+      {
+        "year": "2012",
+        "male": 169997,
+        "female": 172272,
+        "total_in_city": 342269,
+        "rate_over_total": 0.45257284054675223
+      },
+      {
+        "year": "2013",
+        "male": 172573,
+        "female": 173935,
+        "total_in_city": 346508,
+        "rate_over_total": 0.45195989808715686
+      },
+      {
+        "year": "2014",
+        "male": 174231,
+        "female": 175228,
+        "total_in_city": 349459,
+        "rate_over_total": 0.44977789305340987
+      },
+      {
+        "year": "2015",
+        "male": 176281,
+        "female": 176767,
+        "total_in_city": 353048,
+        "rate_over_total": 0.4483658606902298
+      }
+    ]
   },
   {
     "name": "Muğla, Türkiye",
     "lattitude": "37.215374",
     "longitude": "28.363394",
-    "id": 8
+    "id": 8,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 392403,
+        "female": 373753,
+        "total_in_city": 766156,
+        "rate_over_total": 1.085418101790241
+      },
+      {
+        "year": "2008",
+        "male": 405079,
+        "female": 386345,
+        "total_in_city": 791424,
+        "rate_over_total": 1.1066220526279729
+      },
+      {
+        "year": "2009",
+        "male": 410089,
+        "female": 392292,
+        "total_in_city": 802381,
+        "rate_over_total": 1.1057972601156936
+      },
+      {
+        "year": "2010",
+        "male": 416029,
+        "female": 401474,
+        "total_in_city": 817503,
+        "rate_over_total": 1.1088847890972622
+      },
+      {
+        "year": "2011",
+        "male": 428114,
+        "female": 410210,
+        "total_in_city": 838324,
+        "rate_over_total": 1.1218898641885677
+      },
+      {
+        "year": "2012",
+        "male": 434539,
+        "female": 416606,
+        "total_in_city": 851145,
+        "rate_over_total": 1.125445513228383
+      },
+      {
+        "year": "2013",
+        "male": 441531,
+        "female": 425134,
+        "total_in_city": 866665,
+        "rate_over_total": 1.1304149545629705
+      },
+      {
+        "year": "2014",
+        "male": 454642,
+        "female": 439867,
+        "total_in_city": 894509,
+        "rate_over_total": 1.1512949254055915
+      },
+      {
+        "year": "2015",
+        "male": 463411,
+        "female": 445466,
+        "total_in_city": 908877,
+        "rate_over_total": 1.1542606624780596
+      }
+    ]
   }
 ]
