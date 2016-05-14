@@ -2,7 +2,7 @@ require 'spreadsheet'
 require 'json'
 
 def name_include(location, location_name)
-  name = location['name'].split(',')[0]
+  name = location['name'].split(',')[0].strip
   location_name.include? name
 end
 
