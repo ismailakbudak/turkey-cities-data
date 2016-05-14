@@ -1,8 +1,8 @@
 require 'spreadsheet'
 require 'json'
 
-file_name = './data/pivot.xls'
-cities_json = './data/cities.json'
+file_name = './data/excels/turkey-cities.xls'
+cities_json = './data/turkey-cities.json'
 
 file = File.read(cities_json)
 cities = JSON.parse(file)
@@ -10,7 +10,7 @@ cities = JSON.parse(file)
 
 population = Spreadsheet.open(file_name)
 sheet0 = population.worksheet('Sheet0') # can use an index or worksheet name
-sheet1 = population.worksheet('Sheet1') # can use an index or worksheet name
+sheet1 = population.worksheet('Sheet2') # can use an index or worksheet name
 
 city_names = sheet0.first
 names = city_names.each_with_index.select{|column, key| key >= 3 }
@@ -73,6 +73,6 @@ sheet1.each do |row|
   	end
 end
 
-File.open('./data/cities.json', 'w') do |f|
+File.open(cities_json, 'w') do |f|
 	f.write JSON.pretty_generate(cities)
 end
