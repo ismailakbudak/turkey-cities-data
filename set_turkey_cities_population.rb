@@ -2,7 +2,7 @@ require 'spreadsheet'
 require 'json'
 
 file_name = './data/pivot.xls'
-cities_json = "./data/cities.json"
+cities_json = './data/cities.json'
 
 file = File.read(cities_json)
 cities = JSON.parse(file)
@@ -26,19 +26,19 @@ sheet0.each do |row|
   		city_name = names[index][0]
 
   		city_name = city_name.split('-')[0] 
-		city = cities.select{|c| c["name"] ==  city_name }.first
+		city = cities.select{|c| c['name'] ==  city_name }.first
 	  	if city.nil?
 	  		puts city_name
 	  	else		
-			if city["populations"].nil?
-	  			city["populations"] = []
+			if city['populations'].nil?
+	  			city['populations'] = []
 	  		end
-  			population = city["populations"].select{|c| c["year"] ==  year }.first
+  			population = city['populations'].select{|c| c['year'] ==  year }.first
   			if population.nil?
   				population = {
-		  			"year": year
+							'year': year
 				}
-  				city["populations"].push(population)
+  				city['populations'].push(population)
   			end
   			population[gender] = number
 	  	end
@@ -58,21 +58,21 @@ sheet1.each do |row|
   		number = numbers[index][0]
   		city_name = names[index][0]
   		city_name = city_name.split('-')[0] 
-		city = cities.select{|c| c["name"] ==  city_name }.first
+		city = cities.select{|c| c['name'] ==  city_name }.first
 	  	if city.nil?
 	  		puts city_name.inspect
 	  	else
-  			population = city["populations"].select{|c| c["year"] ==  year }.first
+  			population = city['populations'].select{|c| c['year'] ==  year }.first
   			if population.nil?
-  				puts city["name"]
+  				puts city['name']
   			else
-  				population["total_in_city"] = number
-  				population["rate_over_total"] = (number.to_f / total.to_f) * 100
+  				population['total_in_city'] = number
+  				population['rate_over_total'] = (number.to_f / total.to_f) * 100
   			end
 	  	end
   	end
 end
 
-File.open("./data/cities.json", 'w') do |f| 
+File.open('./data/cities.json', 'w') do |f|
 	f.write JSON.pretty_generate(cities)
 end
