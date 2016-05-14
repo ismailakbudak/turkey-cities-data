@@ -31,7 +31,7 @@ def set_location_population excel_file, json_file
         if location['populations'].nil?
           location['populations'] = []
         end
-        population = location['populations'].select{|c| c[:year] == year.to_s }.first
+        population = location['populations'].select{|c| c[:year] == year.to_s or c['year'] ==  year.to_s}.first
         if population.nil?
           population = {
               'year': year
@@ -58,7 +58,7 @@ def set_location_population excel_file, json_file
       if location.nil?
         puts location_name.inspect
       else
-        population = location['populations'].select{|c| c[:year] ==  year.to_s }.first
+        population = location['populations'].select{|c| c[:year] ==  year.to_s or c['year'] ==  year.to_s }.first
         if population.nil?
           puts location['name']
         else
