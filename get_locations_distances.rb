@@ -26,11 +26,11 @@ def get_locations_distances locations_json, path_directory, parameter
 
 			routes = gmaps.directions( first, second, mode: 'driving', alternatives: false)
 
-			File.open("#{root}/#{parameter}-#{location['id']}-#{location_in['id']}.json", 'ab+') do |f|
+			File.open("#{root}/#{parameter}-#{location['id']}-#{location_in['id']}.json", 'w') do |f|
 				f.write JSON.pretty_generate(routes)
 			end
 
-			File.open("#{root}/#{parameter}-#{location_in['id']}-#{location['id']}.json", 'ab+') do |f|
+			File.open("#{root}/#{parameter}-#{location_in['id']}-#{location['id']}.json", 'w') do |f|
 				f.write JSON.pretty_generate(routes)
 			end
 			puts '.'
