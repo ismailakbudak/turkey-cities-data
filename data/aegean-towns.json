@@ -4789,79 +4789,924 @@
   },
   {
     "name": "Kütahya merkez, Kütahya, Türkiye",
-    "id": 132
+    "id": 132,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 124980,
+        "female": 112590,
+        "total_in_town": 237570,
+        "rate_over_total": 40.68606463324828
+      },
+      {
+        "year": "2008",
+        "male": 113692,
+        "female": 113239,
+        "total_in_town": 226931,
+        "rate_over_total": 40.102035046051846
+      },
+      {
+        "year": "2009",
+        "male": 121804,
+        "female": 115055,
+        "total_in_town": 236859,
+        "rate_over_total": 41.423110016719015
+      },
+      {
+        "year": "2010",
+        "male": 143152,
+        "female": 116188,
+        "total_in_town": 259340,
+        "rate_over_total": 43.91901045900396
+      },
+      {
+        "year": "2011",
+        "male": 118719,
+        "female": 119085,
+        "total_in_town": 237804,
+        "rate_over_total": 42.14410276041002
+      },
+      {
+        "year": "2012",
+        "male": 125156,
+        "female": 122898,
+        "total_in_town": 248054,
+        "rate_over_total": 43.258618013640934
+      },
+      {
+        "year": "2013",
+        "male": 125065,
+        "female": 124493,
+        "total_in_town": 249558,
+        "rate_over_total": 43.62452124693432
+      },
+      {
+        "year": "2014",
+        "male": 126616,
+        "female": 126559,
+        "total_in_town": 253175,
+        "rate_over_total": 44.295902049500135
+      },
+      {
+        "year": "2015",
+        "male": 128263,
+        "female": 128324,
+        "total_in_town": 256587,
+        "rate_over_total": 44.90001977380863
+      }
+    ]
   },
   {
     "name": "Altıntaş, Kütahya, Türkiye",
     "lattitude": "39.057997",
     "longitude": "30.108556",
-    "id": 84
+    "id": 84,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 10206,
+        "female": 10110,
+        "total_in_town": 20316,
+        "rate_over_total": 3.4793033172920484
+      },
+      {
+        "year": "2008",
+        "male": 9662,
+        "female": 9829,
+        "total_in_town": 19491,
+        "rate_over_total": 3.444345484233518
+      },
+      {
+        "year": "2009",
+        "male": 9532,
+        "female": 9588,
+        "total_in_town": 19120,
+        "rate_over_total": 3.3438031213492736
+      },
+      {
+        "year": "2010",
+        "male": 9165,
+        "female": 9259,
+        "total_in_town": 18424,
+        "rate_over_total": 3.120088874437761
+      },
+      {
+        "year": "2011",
+        "male": 9013,
+        "female": 9013,
+        "total_in_town": 18026,
+        "rate_over_total": 3.1946039442530445
+      },
+      {
+        "year": "2012",
+        "male": 8843,
+        "female": 8937,
+        "total_in_town": 17780,
+        "rate_over_total": 3.1006886737667436
+      },
+      {
+        "year": "2013",
+        "male": 8846,
+        "female": 8969,
+        "total_in_town": 17815,
+        "rate_over_total": 3.1141892706871146
+      },
+      {
+        "year": "2014",
+        "male": 8448,
+        "female": 8623,
+        "total_in_town": 17071,
+        "rate_over_total": 2.9867694041157966
+      },
+      {
+        "year": "2015",
+        "male": 8129,
+        "female": 8348,
+        "total_in_town": 16477,
+        "rate_over_total": 2.883301281097814
+      }
+    ]
   },
   {
     "name": "Aslanapa, Kütahya, Türkiye",
     "lattitude": "39.214902",
     "longitude": "29.870345",
-    "id": 85
+    "id": 85,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 5977,
+        "female": 6074,
+        "total_in_town": 12051,
+        "rate_over_total": 2.0638454556352865
+      },
+      {
+        "year": "2008",
+        "male": 5732,
+        "female": 5916,
+        "total_in_town": 11648,
+        "rate_over_total": 2.058372387273717
+      },
+      {
+        "year": "2009",
+        "male": 5638,
+        "female": 5794,
+        "total_in_town": 11432,
+        "rate_over_total": 1.999286468790005
+      },
+      {
+        "year": "2010",
+        "male": 5441,
+        "female": 5642,
+        "total_in_town": 11083,
+        "rate_over_total": 1.8768967105619685
+      },
+      {
+        "year": "2011",
+        "male": 5371,
+        "female": 5529,
+        "total_in_town": 10900,
+        "rate_over_total": 1.9317199041583373
+      },
+      {
+        "year": "2012",
+        "male": 5298,
+        "female": 5446,
+        "total_in_town": 10744,
+        "rate_over_total": 1.8736669916169795
+      },
+      {
+        "year": "2013",
+        "male": 5186,
+        "female": 5345,
+        "total_in_town": 10531,
+        "rate_over_total": 1.8408940336573674
+      },
+      {
+        "year": "2014",
+        "male": 5020,
+        "female": 5229,
+        "total_in_town": 10249,
+        "rate_over_total": 1.793181396683428
+      },
+      {
+        "year": "2015",
+        "male": 4900,
+        "female": 5086,
+        "total_in_town": 9986,
+        "rate_over_total": 1.7474447164558335
+      }
+    ]
   },
   {
     "name": "Çavdarhisar, Kütahya, Türkiye",
     "lattitude": "39.196872",
     "longitude": "29.617246",
-    "id": 86
+    "id": 86,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 4289,
+        "female": 4617,
+        "total_in_town": 8906,
+        "rate_over_total": 1.5252350533472625
+      },
+      {
+        "year": "2008",
+        "male": 4175,
+        "female": 4486,
+        "total_in_town": 8661,
+        "rate_over_total": 1.5305256907776152
+      },
+      {
+        "year": "2009",
+        "male": 4063,
+        "female": 4422,
+        "total_in_town": 8485,
+        "rate_over_total": 1.4839000776489846
+      },
+      {
+        "year": "2010",
+        "male": 3935,
+        "female": 4332,
+        "total_in_town": 8267,
+        "rate_over_total": 1.4000094835528099
+      },
+      {
+        "year": "2011",
+        "male": 3793,
+        "female": 4176,
+        "total_in_town": 7969,
+        "rate_over_total": 1.412282194150256
+      },
+      {
+        "year": "2012",
+        "male": 3691,
+        "female": 4095,
+        "total_in_town": 7786,
+        "rate_over_total": 1.3578156363300262
+      },
+      {
+        "year": "2013",
+        "male": 3675,
+        "female": 4051,
+        "total_in_town": 7726,
+        "rate_over_total": 1.3505599946858629
+      },
+      {
+        "year": "2014",
+        "male": 3491,
+        "female": 3858,
+        "total_in_town": 7349,
+        "rate_over_total": 1.285792768487317
+      },
+      {
+        "year": "2015",
+        "male": 3375,
+        "female": 3697,
+        "total_in_town": 7072,
+        "rate_over_total": 1.2375254390922947
+      }
+    ]
   },
   {
     "name": "Domaniç, Kütahya, Türkiye",
     "lattitude": "39.800999",
     "longitude": "29.612731",
-    "id": 87
+    "id": 87,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 8761,
+        "female": 9099,
+        "total_in_town": 17860,
+        "rate_over_total": 3.0586905516261065
+      },
+      {
+        "year": "2008",
+        "male": 8493,
+        "female": 8936,
+        "total_in_town": 17429,
+        "rate_over_total": 3.07995985042871
+      },
+      {
+        "year": "2009",
+        "male": 8296,
+        "female": 8738,
+        "total_in_town": 17034,
+        "rate_over_total": 2.978992801729264
+      },
+      {
+        "year": "2010",
+        "male": 8291,
+        "female": 8622,
+        "total_in_town": 16913,
+        "rate_over_total": 2.8642022977293666
+      },
+      {
+        "year": "2011",
+        "male": 8062,
+        "female": 8363,
+        "total_in_town": 16425,
+        "rate_over_total": 2.9108715069541917
+      },
+      {
+        "year": "2012",
+        "male": 7966,
+        "female": 8138,
+        "total_in_town": 16104,
+        "rate_over_total": 2.808407784158585
+      },
+      {
+        "year": "2013",
+        "male": 7874,
+        "female": 8027,
+        "total_in_town": 15901,
+        "rate_over_total": 2.77960839703597
+      },
+      {
+        "year": "2014",
+        "male": 7580,
+        "female": 7844,
+        "total_in_town": 15424,
+        "rate_over_total": 2.6986076556195915
+      },
+      {
+        "year": "2015",
+        "male": 7505,
+        "female": 7743,
+        "total_in_town": 15248,
+        "rate_over_total": 2.668239238585875
+      }
+    ]
   },
   {
     "name": "Dumlupınar, Kütahya, Türkiye",
     "lattitude": "38.8552",
     "longitude": "29.9762",
-    "id": 88
+    "id": 88,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 1623,
+        "female": 1654,
+        "total_in_town": 3277,
+        "rate_over_total": 0.5612166258498742
+      },
+      {
+        "year": "2008",
+        "male": 1629,
+        "female": 1672,
+        "total_in_town": 3301,
+        "rate_over_total": 0.583335100479957
+      },
+      {
+        "year": "2009",
+        "male": 1596,
+        "female": 1667,
+        "total_in_town": 3263,
+        "rate_over_total": 0.5706500828955376
+      },
+      {
+        "year": "2010",
+        "male": 1556,
+        "female": 1616,
+        "total_in_town": 3172,
+        "rate_over_total": 0.5371755270145776
+      },
+      {
+        "year": "2011",
+        "male": 1529,
+        "female": 1577,
+        "total_in_town": 3106,
+        "rate_over_total": 0.5504515616803483
+      },
+      {
+        "year": "2012",
+        "male": 1507,
+        "female": 1536,
+        "total_in_town": 3043,
+        "rate_over_total": 0.5306746700940496
+      },
+      {
+        "year": "2013",
+        "male": 1505,
+        "female": 1534,
+        "total_in_town": 3039,
+        "rate_over_total": 0.5312389106718014
+      },
+      {
+        "year": "2014",
+        "male": 1488,
+        "female": 1498,
+        "total_in_town": 2986,
+        "rate_over_total": 0.5224353254460646
+      },
+      {
+        "year": "2015",
+        "male": 1467,
+        "female": 1461,
+        "total_in_town": 2928,
+        "rate_over_total": 0.512369129759932
+      }
+    ]
   },
   {
     "name": "Emet, Kütahya, Türkiye",
     "lattitude": "39.344413",
     "longitude": "29.257899",
-    "id": 89
+    "id": 89,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 11891,
+        "female": 12546,
+        "total_in_town": 24437,
+        "rate_over_total": 4.185062766522238
+      },
+      {
+        "year": "2008",
+        "male": 11643,
+        "female": 12249,
+        "total_in_town": 23892,
+        "rate_over_total": 4.222066713319338
+      },
+      {
+        "year": "2009",
+        "male": 11180,
+        "female": 12079,
+        "total_in_town": 23259,
+        "rate_over_total": 4.067652552273157
+      },
+      {
+        "year": "2010",
+        "male": 11073,
+        "female": 11775,
+        "total_in_town": 22848,
+        "rate_over_total": 3.8692895464152173
+      },
+      {
+        "year": "2011",
+        "male": 10920,
+        "female": 11508,
+        "total_in_town": 22428,
+        "rate_over_total": 3.9747352303177235
+      },
+      {
+        "year": "2012",
+        "male": 10778,
+        "female": 11675,
+        "total_in_town": 22453,
+        "rate_over_total": 3.9156222042792295
+      },
+      {
+        "year": "2013",
+        "male": 10695,
+        "female": 11498,
+        "total_in_town": 22193,
+        "rate_over_total": 3.879494947199502
+      },
+      {
+        "year": "2014",
+        "male": 10308,
+        "female": 11198,
+        "total_in_town": 21506,
+        "rate_over_total": 3.7627240820639867
+      },
+      {
+        "year": "2015",
+        "male": 10173,
+        "female": 10972,
+        "total_in_town": 21145,
+        "rate_over_total": 3.7001520658380334
+      }
+    ]
   },
   {
     "name": "Gediz, Kütahya, Türkiye",
     "lattitude": "38.990736",
     "longitude": "29.395705",
-    "id": 90
+    "id": 90,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 26869,
+        "female": 27390,
+        "total_in_town": 54259,
+        "rate_over_total": 9.292356698806323
+      },
+      {
+        "year": "2008",
+        "male": 25867,
+        "female": 26967,
+        "total_in_town": 52834,
+        "rate_over_total": 9.336542471601954
+      },
+      {
+        "year": "2009",
+        "male": 25896,
+        "female": 26892,
+        "total_in_town": 52788,
+        "rate_over_total": 9.23183468461221
+      },
+      {
+        "year": "2010",
+        "male": 25463,
+        "female": 26387,
+        "total_in_town": 51850,
+        "rate_over_total": 8.780753806969056
+      },
+      {
+        "year": "2011",
+        "male": 25170,
+        "female": 26121,
+        "total_in_town": 51291,
+        "rate_over_total": 9.08989409212709
+      },
+      {
+        "year": "2012",
+        "male": 25395,
+        "female": 26395,
+        "total_in_town": 51790,
+        "rate_over_total": 9.031758515994357
+      },
+      {
+        "year": "2013",
+        "male": 24952,
+        "female": 25969,
+        "total_in_town": 50921,
+        "rate_over_total": 8.901354580558998
+      },
+      {
+        "year": "2014",
+        "male": 25256,
+        "female": 25929,
+        "total_in_town": 51185,
+        "rate_over_total": 8.95540928766136
+      },
+      {
+        "year": "2015",
+        "male": 24831,
+        "female": 25668,
+        "total_in_town": 50499,
+        "rate_over_total": 8.83679258324686
+      }
+    ]
   },
   {
     "name": "Pazarlar, Kütahya, Türkiye",
     "lattitude": "38.9951999",
     "longitude": "29.1239",
-    "id": 91
+    "id": 91,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 3476,
+        "female": 3611,
+        "total_in_town": 7087,
+        "rate_over_total": 1.2137144422941892
+      },
+      {
+        "year": "2008",
+        "male": 3200,
+        "female": 3329,
+        "total_in_town": 6529,
+        "rate_over_total": 1.1537700306069796
+      },
+      {
+        "year": "2009",
+        "male": 3060,
+        "female": 3236,
+        "total_in_town": 6296,
+        "rate_over_total": 1.1010765926786101
+      },
+      {
+        "year": "2010",
+        "male": 2882,
+        "female": 3076,
+        "total_in_town": 5958,
+        "rate_over_total": 1.008982279304178
+      },
+      {
+        "year": "2011",
+        "male": 2814,
+        "female": 2989,
+        "total_in_town": 5803,
+        "rate_over_total": 1.0284193214523698
+      },
+      {
+        "year": "2012",
+        "male": 2731,
+        "female": 2933,
+        "total_in_town": 5664,
+        "rate_over_total": 0.9877559419693384
+      },
+      {
+        "year": "2013",
+        "male": 2695,
+        "female": 2868,
+        "total_in_town": 5563,
+        "rate_over_total": 0.9724521421741464
+      },
+      {
+        "year": "2014",
+        "male": 2577,
+        "female": 2758,
+        "total_in_town": 5335,
+        "rate_over_total": 0.9334201142849144
+      },
+      {
+        "year": "2015",
+        "male": 2547,
+        "female": 2711,
+        "total_in_town": 5258,
+        "rate_over_total": 0.9200945643025008
+      }
+    ]
   },
   {
     "name": "Şaphane, Kütahya, Türkiye",
     "lattitude": "39.02491",
     "longitude": "29.220065",
-    "id": 92
+    "id": 92,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 3715,
+        "female": 3982,
+        "total_in_town": 7697,
+        "rate_over_total": 1.318182596633043
+      },
+      {
+        "year": "2008",
+        "male": 3633,
+        "female": 3921,
+        "total_in_town": 7554,
+        "rate_over_total": 1.3349025595351698
+      },
+      {
+        "year": "2009",
+        "male": 3668,
+        "female": 4118,
+        "total_in_town": 7786,
+        "rate_over_total": 1.3616553924071886
+      },
+      {
+        "year": "2010",
+        "male": 3541,
+        "female": 3945,
+        "total_in_town": 7486,
+        "rate_over_total": 1.2677477916869886
+      },
+      {
+        "year": "2011",
+        "male": 3546,
+        "female": 3954,
+        "total_in_town": 7500,
+        "rate_over_total": 1.3291650716685806
+      },
+      {
+        "year": "2012",
+        "male": 3597,
+        "female": 3976,
+        "total_in_town": 7573,
+        "rate_over_total": 1.3206701533428318
+      },
+      {
+        "year": "2013",
+        "male": 3510,
+        "female": 3864,
+        "total_in_town": 7374,
+        "rate_over_total": 1.2890278799913995
+      },
+      {
+        "year": "2014",
+        "male": 3364,
+        "female": 3674,
+        "total_in_town": 7038,
+        "rate_over_total": 1.2313797121531824
+      },
+      {
+        "year": "2015",
+        "male": 3234,
+        "female": 3528,
+        "total_in_town": 6762,
+        "rate_over_total": 1.1832787074578757
+      }
+    ]
   },
   {
     "name": "Hisarcık, Kütahya, Türkiye",
     "lattitude": "39.246528",
     "longitude": "29.235896",
-    "id": 93
+    "id": 93,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 7343,
+        "female": 7464,
+        "total_in_town": 14807,
+        "rate_over_total": 2.535836002123615
+      },
+      {
+        "year": "2008",
+        "male": 7338,
+        "female": 7502,
+        "total_in_town": 14840,
+        "rate_over_total": 2.6224455895554564
+      },
+      {
+        "year": "2009",
+        "male": 7037,
+        "female": 7359,
+        "total_in_town": 14396,
+        "rate_over_total": 2.5176459066393377
+      },
+      {
+        "year": "2010",
+        "male": 7004,
+        "female": 7294,
+        "total_in_town": 14298,
+        "rate_over_total": 2.421354251341245
+      },
+      {
+        "year": "2011",
+        "male": 6969,
+        "female": 7256,
+        "total_in_town": 14225,
+        "rate_over_total": 2.520983085931408
+      },
+      {
+        "year": "2012",
+        "male": 6779,
+        "female": 7207,
+        "total_in_town": 13986,
+        "rate_over_total": 2.439045657553525
+      },
+      {
+        "year": "2013",
+        "male": 6828,
+        "female": 7146,
+        "total_in_town": 13974,
+        "rate_over_total": 2.4427550305125867
+      },
+      {
+        "year": "2014",
+        "male": 6523,
+        "female": 6915,
+        "total_in_town": 13438,
+        "rate_over_total": 2.3511339261032203
+      },
+      {
+        "year": "2015",
+        "male": 6317,
+        "female": 6692,
+        "total_in_town": 13009,
+        "rate_over_total": 2.2764378446198617
+      }
+    ]
   },
   {
     "name": "Simav, Kütahya, Türkiye",
     "lattitude": "39.0896",
     "longitude": "28.9787",
-    "id": 94
+    "id": 94,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 37789,
+        "female": 38421,
+        "total_in_town": 76210,
+        "rate_over_total": 13.051668921580381
+      },
+      {
+        "year": "2008",
+        "male": 35993,
+        "female": 37189,
+        "total_in_town": 73182,
+        "rate_over_total": 12.932332421485675
+      },
+      {
+        "year": "2009",
+        "male": 34803,
+        "female": 36255,
+        "total_in_town": 71058,
+        "rate_over_total": 12.426985470545851
+      },
+      {
+        "year": "2010",
+        "male": 34091,
+        "female": 35855,
+        "total_in_town": 69946,
+        "rate_over_total": 11.845296157806319
+      },
+      {
+        "year": "2011",
+        "male": 33139,
+        "female": 34647,
+        "total_in_town": 67786,
+        "rate_over_total": 12.013171139750188
+      },
+      {
+        "year": "2012",
+        "male": 32698,
+        "female": 34218,
+        "total_in_town": 66916,
+        "rate_over_total": 11.669610983901881
+      },
+      {
+        "year": "2013",
+        "male": 32274,
+        "female": 33719,
+        "total_in_town": 65993,
+        "rate_over_total": 11.536047855203746
+      },
+      {
+        "year": "2014",
+        "male": 31597,
+        "female": 33302,
+        "total_in_town": 64899,
+        "rate_over_total": 11.354832614241174
+      },
+      {
+        "year": "2015",
+        "male": 31369,
+        "female": 32982,
+        "total_in_town": 64351,
+        "rate_over_total": 11.260746540020964
+      }
+    ]
   },
   {
     "name": "Tavşanlı, Kütahya, Türkiye",
     "lattitude": "39.547",
     "longitude": "29.4914",
-    "id": 95
+    "id": 95,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 49248,
+        "female": 50185,
+        "total_in_town": 99433,
+        "rate_over_total": 17.02882293504136
+      },
+      {
+        "year": "2008",
+        "male": 49313,
+        "female": 50279,
+        "total_in_town": 99592,
+        "rate_over_total": 17.59936665465007
+      },
+      {
+        "year": "2009",
+        "male": 49338,
+        "female": 50690,
+        "total_in_town": 100028,
+        "rate_over_total": 17.493406831711567
+      },
+      {
+        "year": "2010",
+        "male": 50040,
+        "female": 50871,
+        "total_in_town": 100911,
+        "rate_over_total": 17.089192814176556
+      },
+      {
+        "year": "2011",
+        "male": 50117,
+        "female": 50884,
+        "total_in_town": 101001,
+        "rate_over_total": 17.89960018714644
+      },
+      {
+        "year": "2012",
+        "male": 50470,
+        "female": 51058,
+        "total_in_town": 101528,
+        "rate_over_total": 17.70566477335152
+      },
+      {
+        "year": "2013",
+        "male": 50469,
+        "female": 51002,
+        "total_in_town": 101471,
+        "rate_over_total": 17.737855710687185
+      },
+      {
+        "year": "2014",
+        "male": 50542,
+        "female": 51357,
+        "total_in_town": 101899,
+        "rate_over_total": 17.82841166363983
+      },
+      {
+        "year": "2015",
+        "male": 50706,
+        "female": 51435,
+        "total_in_town": 102141,
+        "rate_over_total": 17.87359811571353
+      }
+    ]
   },
   {
     "name": "Afyonkarahisar merkez, Afyonkarahisar, Türkiye",
