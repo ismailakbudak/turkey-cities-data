@@ -8123,78 +8123,921 @@
     "name": "Bodrum, Muğla, Türkiye",
     "lattitude": "37.034407",
     "longitude": "27.43054",
-    "id": 118
+    "id": 118,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 55335,
+        "female": 50139,
+        "total_in_town": 105474,
+        "rate_over_total": 13.766648045567742
+      },
+      {
+        "year": "2008",
+        "male": 59703,
+        "female": 54795,
+        "total_in_town": 114498,
+        "rate_over_total": 14.467339883551675
+      },
+      {
+        "year": "2009",
+        "male": 61303,
+        "female": 56934,
+        "total_in_town": 118237,
+        "rate_over_total": 14.735767671467794
+      },
+      {
+        "year": "2010",
+        "male": 64562,
+        "female": 60258,
+        "total_in_town": 124820,
+        "rate_over_total": 15.268445498059336
+      },
+      {
+        "year": "2011",
+        "male": 67656,
+        "female": 63334,
+        "total_in_town": 130990,
+        "rate_over_total": 15.625223660541748
+      },
+      {
+        "year": "2012",
+        "male": 70102,
+        "female": 66215,
+        "total_in_town": 136317,
+        "rate_over_total": 16.015720000704935
+      },
+      {
+        "year": "2013",
+        "male": 72113,
+        "female": 68603,
+        "total_in_town": 140716,
+        "rate_over_total": 16.236492762486083
+      },
+      {
+        "year": "2014",
+        "male": 77445,
+        "female": 74995,
+        "total_in_town": 152440,
+        "rate_over_total": 17.04175139657622
+      },
+      {
+        "year": "2015",
+        "male": 79571,
+        "female": 76244,
+        "total_in_town": 155815,
+        "rate_over_total": 17.143683908823746
+      }
+    ]
   },
   {
     "name": "Dalaman, Muğla, Türkiye",
     "lattitude": "36.76662",
     "longitude": "28.799991",
-    "id": 119
+    "id": 119,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 16127,
+        "female": 15191,
+        "total_in_town": 31318,
+        "rate_over_total": 4.087679271584377
+      },
+      {
+        "year": "2008",
+        "male": 16565,
+        "female": 15802,
+        "total_in_town": 32367,
+        "rate_over_total": 4.089716763706938
+      },
+      {
+        "year": "2009",
+        "male": 17202,
+        "female": 16249,
+        "total_in_town": 33451,
+        "rate_over_total": 4.168967111633999
+      },
+      {
+        "year": "2010",
+        "male": 17414,
+        "female": 16566,
+        "total_in_town": 33980,
+        "rate_over_total": 4.156559670117418
+      },
+      {
+        "year": "2011",
+        "male": 18058,
+        "female": 16757,
+        "total_in_town": 34815,
+        "rate_over_total": 4.1529289391691036
+      },
+      {
+        "year": "2012",
+        "male": 18075,
+        "female": 16764,
+        "total_in_town": 34839,
+        "rate_over_total": 4.093192111802337
+      },
+      {
+        "year": "2013",
+        "male": 18303,
+        "female": 17059,
+        "total_in_town": 35362,
+        "rate_over_total": 4.080238615843492
+      },
+      {
+        "year": "2014",
+        "male": 18566,
+        "female": 17392,
+        "total_in_town": 35958,
+        "rate_over_total": 4.019858939373444
+      },
+      {
+        "year": "2015",
+        "male": 19808,
+        "female": 17598,
+        "total_in_town": 37406,
+        "rate_over_total": 4.1156284073642535
+      }
+    ]
   },
   {
     "name": "Datça, Muğla, Türkiye",
     "lattitude": "36.726217",
     "longitude": "27.685844",
-    "id": 120
+    "id": 120,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 7698,
+        "female": 7138,
+        "total_in_town": 14836,
+        "rate_over_total": 1.9364202590595125
+      },
+      {
+        "year": "2008",
+        "male": 8342,
+        "female": 7666,
+        "total_in_town": 16008,
+        "rate_over_total": 2.0226831635128577
+      },
+      {
+        "year": "2009",
+        "male": 8177,
+        "female": 7724,
+        "total_in_town": 15901,
+        "rate_over_total": 1.981726885357455
+      },
+      {
+        "year": "2010",
+        "male": 8451,
+        "female": 8024,
+        "total_in_town": 16475,
+        "rate_over_total": 2.0152831243432745
+      },
+      {
+        "year": "2011",
+        "male": 8751,
+        "female": 8253,
+        "total_in_town": 17004,
+        "rate_over_total": 2.028332721000472
+      },
+      {
+        "year": "2012",
+        "male": 8967,
+        "female": 8390,
+        "total_in_town": 17357,
+        "rate_over_total": 2.0392530062445293
+      },
+      {
+        "year": "2013",
+        "male": 9369,
+        "female": 8614,
+        "total_in_town": 17983,
+        "rate_over_total": 2.074965528779863
+      },
+      {
+        "year": "2014",
+        "male": 10309,
+        "female": 9847,
+        "total_in_town": 20156,
+        "rate_over_total": 2.253303208799464
+      },
+      {
+        "year": "2015",
+        "male": 10312,
+        "female": 9717,
+        "total_in_town": 20029,
+        "rate_over_total": 2.203708532617725
+      }
+    ]
   },
   {
     "name": "Fethiye, Muğla, Türkiye",
     "lattitude": "36.659246",
     "longitude": "29.126347",
-    "id": 121
+    "id": 121,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 87468,
+        "female": 85958,
+        "total_in_town": 173426,
+        "rate_over_total": 22.635860059831156
+      },
+      {
+        "year": "2008",
+        "male": 92126,
+        "female": 89289,
+        "total_in_town": 181415,
+        "rate_over_total": 22.922605329128253
+      },
+      {
+        "year": "2009",
+        "male": 92400,
+        "female": 90784,
+        "total_in_town": 183184,
+        "rate_over_total": 22.830052057563677
+      },
+      {
+        "year": "2010",
+        "male": 95093,
+        "female": 93166,
+        "total_in_town": 188259,
+        "rate_over_total": 23.028539344809744
+      },
+      {
+        "year": "2011",
+        "male": 97577,
+        "female": 95309,
+        "total_in_town": 192886,
+        "rate_over_total": 23.00852653627953
+      },
+      {
+        "year": "2012",
+        "male": 99055,
+        "female": 96364,
+        "total_in_town": 195419,
+        "rate_over_total": 22.959542733611784
+      },
+      {
+        "year": "2013",
+        "male": 70809,
+        "female": 69700,
+        "total_in_town": 140509,
+        "rate_over_total": 16.212608101169426
+      },
+      {
+        "year": "2014",
+        "male": 73360,
+        "female": 72283,
+        "total_in_town": 145643,
+        "rate_over_total": 16.281893195037725
+      },
+      {
+        "year": "2015",
+        "male": 74369,
+        "female": 73334,
+        "total_in_town": 147703,
+        "rate_over_total": 16.25115389651185
+      }
+    ]
   },
   {
     "name": "Kavaklıdere, Muğla, Türkiye",
     "lattitude": "37.445382",
     "longitude": "28.366123",
-    "id": 122
+    "id": 122,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 5619,
+        "female": 5534,
+        "total_in_town": 11153,
+        "rate_over_total": 1.4557087590516815
+      },
+      {
+        "year": "2008",
+        "male": 5607,
+        "female": 5562,
+        "total_in_town": 11169,
+        "rate_over_total": 1.4112536390101893
+      },
+      {
+        "year": "2009",
+        "male": 5602,
+        "female": 5538,
+        "total_in_town": 11140,
+        "rate_over_total": 1.3883678701265358
+      },
+      {
+        "year": "2010",
+        "male": 5597,
+        "female": 5535,
+        "total_in_town": 11132,
+        "rate_over_total": 1.3617075411344057
+      },
+      {
+        "year": "2011",
+        "male": 5502,
+        "female": 5492,
+        "total_in_town": 10994,
+        "rate_over_total": 1.311426131185556
+      },
+      {
+        "year": "2012",
+        "male": 5556,
+        "female": 5452,
+        "total_in_town": 11008,
+        "rate_over_total": 1.2933166499245135
+      },
+      {
+        "year": "2013",
+        "male": 5514,
+        "female": 5364,
+        "total_in_town": 10878,
+        "rate_over_total": 1.2551562599158845
+      },
+      {
+        "year": "2014",
+        "male": 5480,
+        "female": 5334,
+        "total_in_town": 10814,
+        "rate_over_total": 1.2089313802320603
+      },
+      {
+        "year": "2015",
+        "male": 5440,
+        "female": 5319,
+        "total_in_town": 10759,
+        "rate_over_total": 1.1837685407376355
+      }
+    ]
   },
   {
     "name": "Köyceğiz, Muğla, Türkiye",
     "lattitude": "36.966034",
     "longitude": "28.688593",
-    "id": 123
+    "id": 123,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 16289,
+        "female": 16106,
+        "total_in_town": 32395,
+        "rate_over_total": 4.228251165558972
+      },
+      {
+        "year": "2008",
+        "male": 16182,
+        "female": 16165,
+        "total_in_town": 32347,
+        "rate_over_total": 4.087189673297751
+      },
+      {
+        "year": "2009",
+        "male": 16552,
+        "female": 16201,
+        "total_in_town": 32753,
+        "rate_over_total": 4.081976018873826
+      },
+      {
+        "year": "2010",
+        "male": 16453,
+        "female": 16364,
+        "total_in_town": 32817,
+        "rate_over_total": 4.014297195239651
+      },
+      {
+        "year": "2011",
+        "male": 16779,
+        "female": 16552,
+        "total_in_town": 33331,
+        "rate_over_total": 3.9759090757272846
+      },
+      {
+        "year": "2012",
+        "male": 16893,
+        "female": 16677,
+        "total_in_town": 33570,
+        "rate_over_total": 3.944098831573939
+      },
+      {
+        "year": "2013",
+        "male": 16990,
+        "female": 16787,
+        "total_in_town": 33777,
+        "rate_over_total": 3.897353648757017
+      },
+      {
+        "year": "2014",
+        "male": 17081,
+        "female": 16946,
+        "total_in_town": 34027,
+        "rate_over_total": 3.803986320987268
+      },
+      {
+        "year": "2015",
+        "male": 17283,
+        "female": 17080,
+        "total_in_town": 34363,
+        "rate_over_total": 3.7808196268581997
+      }
+    ]
   },
   {
     "name": "Marmaris, Muğla, Türkiye",
     "lattitude": "36.854936",
     "longitude": "28.270878",
-    "id": 124
+    "id": 124,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 40366,
+        "female": 33095,
+        "total_in_town": 73461,
+        "rate_over_total": 9.588256177593076
+      },
+      {
+        "year": "2008",
+        "male": 41982,
+        "female": 34838,
+        "total_in_town": 76820,
+        "rate_over_total": 9.706554261685266
+      },
+      {
+        "year": "2009",
+        "male": 40095,
+        "female": 35255,
+        "total_in_town": 75350,
+        "rate_over_total": 9.390800629626076
+      },
+      {
+        "year": "2010",
+        "male": 41158,
+        "female": 36232,
+        "total_in_town": 77390,
+        "rate_over_total": 9.46663192673299
+      },
+      {
+        "year": "2011",
+        "male": 44132,
+        "female": 37778,
+        "total_in_town": 81910,
+        "rate_over_total": 9.770685319757039
+      },
+      {
+        "year": "2012",
+        "male": 44557,
+        "female": 38524,
+        "total_in_town": 83081,
+        "rate_over_total": 9.761086536371593
+      },
+      {
+        "year": "2013",
+        "male": 45744,
+        "female": 40057,
+        "total_in_town": 85801,
+        "rate_over_total": 9.90013442333543
+      },
+      {
+        "year": "2014",
+        "male": 46995,
+        "female": 41626,
+        "total_in_town": 88621,
+        "rate_over_total": 9.90722284515863
+      },
+      {
+        "year": "2015",
+        "male": 47476,
+        "female": 42154,
+        "total_in_town": 89630,
+        "rate_over_total": 9.861620439289364
+      }
+    ]
   },
   {
     "name": "Milas, Muğla, Türkiye",
     "lattitude": "37.31163799999999",
     "longitude": "27.780795",
-    "id": 125
+    "id": 125,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 60869,
+        "female": 59639,
+        "total_in_town": 120508,
+        "rate_over_total": 15.728911605469381
+      },
+      {
+        "year": "2008",
+        "male": 62270,
+        "female": 61231,
+        "total_in_town": 123501,
+        "rate_over_total": 15.604909631246969
+      },
+      {
+        "year": "2009",
+        "male": 62585,
+        "female": 61399,
+        "total_in_town": 123984,
+        "rate_over_total": 15.452010952402912
+      },
+      {
+        "year": "2010",
+        "male": 63433,
+        "female": 62294,
+        "total_in_town": 125727,
+        "rate_over_total": 15.379393103144576
+      },
+      {
+        "year": "2011",
+        "male": 64240,
+        "female": 62854,
+        "total_in_town": 127094,
+        "rate_over_total": 15.160486876195838
+      },
+      {
+        "year": "2012",
+        "male": 64861,
+        "female": 63145,
+        "total_in_town": 128006,
+        "rate_over_total": 15.039270629563706
+      },
+      {
+        "year": "2013",
+        "male": 65424,
+        "female": 63704,
+        "total_in_town": 129128,
+        "rate_over_total": 14.899413268102437
+      },
+      {
+        "year": "2014",
+        "male": 67050,
+        "female": 65395,
+        "total_in_town": 132445,
+        "rate_over_total": 14.80644688874008
+      },
+      {
+        "year": "2015",
+        "male": 67075,
+        "female": 65362,
+        "total_in_town": 132437,
+        "rate_over_total": 14.571498673637906
+      }
+    ]
   },
   {
-    "name": "Menteşe, Muğla, Türkiye",
-    "lattitude": "37.4213499",
-    "longitude": "28.432157",
-    "id": 126
+    "name": "Muğla merkez, Muğla, Türkiye",
+    "id": 126,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 47526,
+        "female": 46681,
+        "total_in_town": 94207,
+        "rate_over_total": 12.296059810273626
+      },
+      {
+        "year": "2008",
+        "male": 46542,
+        "female": 45786,
+        "total_in_town": 92328,
+        "rate_over_total": 11.666060164968462
+      },
+      {
+        "year": "2009",
+        "male": 49953,
+        "female": 46867,
+        "total_in_town": 96820,
+        "rate_over_total": 12.066586820974075
+      },
+      {
+        "year": "2010",
+        "male": 47701,
+        "female": 47259,
+        "total_in_town": 94960,
+        "rate_over_total": 11.615859513665393
+      },
+      {
+        "year": "2011",
+        "male": 49226,
+        "female": 47981,
+        "total_in_town": 97207,
+        "rate_over_total": 11.595397483550512
+      },
+      {
+        "year": "2012",
+        "male": 50026,
+        "female": 49132,
+        "total_in_town": 99158,
+        "rate_over_total": 11.649953885648156
+      },
+      {
+        "year": "2013",
+        "male": 50209,
+        "female": 49702,
+        "total_in_town": 99911,
+        "rate_over_total": 11.528214477335533
+      },
+      {
+        "year": "2014",
+        "male": 51610,
+        "female": 50804,
+        "total_in_town": 102414,
+        "rate_over_total": 11.449186089798985
+      },
+      {
+        "year": "2015",
+        "male": 53350,
+        "female": 52510,
+        "total_in_town": 105860,
+        "rate_over_total": 11.647340619247709
+      }
+    ]
   },
   {
     "name": "Ortaca, Muğla, Türkiye",
     "lattitude": "36.838723",
     "longitude": "28.765469",
-    "id": 127
+    "id": 127,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 20055,
+        "female": 19593,
+        "total_in_town": 39648,
+        "rate_over_total": 5.1749252110536235
+      },
+      {
+        "year": "2008",
+        "male": 20490,
+        "female": 20159,
+        "total_in_town": 40649,
+        "rate_over_total": 5.13618490215106
+      },
+      {
+        "year": "2009",
+        "male": 21174,
+        "female": 20530,
+        "total_in_town": 41704,
+        "rate_over_total": 5.197530848811225
+      },
+      {
+        "year": "2010",
+        "male": 21302,
+        "female": 21062,
+        "total_in_town": 42364,
+        "rate_over_total": 5.1821216558226695
+      },
+      {
+        "year": "2011",
+        "male": 21619,
+        "female": 21301,
+        "total_in_town": 42920,
+        "rate_over_total": 5.119738907629986
+      },
+      {
+        "year": "2012",
+        "male": 21970,
+        "female": 21663,
+        "total_in_town": 43633,
+        "rate_over_total": 5.126388570690071
+      },
+      {
+        "year": "2013",
+        "male": 22241,
+        "female": 21986,
+        "total_in_town": 44227,
+        "rate_over_total": 5.10312519831769
+      },
+      {
+        "year": "2014",
+        "male": 22596,
+        "female": 22231,
+        "total_in_town": 44827,
+        "rate_over_total": 5.011352596787734
+      },
+      {
+        "year": "2015",
+        "male": 23044,
+        "female": 22831,
+        "total_in_town": 45875,
+        "rate_over_total": 5.0474376620818875
+      }
+    ]
   },
   {
     "name": "Seydikemer, Muğla, Türkiye",
     "lattitude": "36.6480362",
     "longitude": "29.3591524",
-    "id": 128
+    "id": 128,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 0,
+        "female": 0,
+        "total_in_town": 0,
+        "rate_over_total": 0.0
+      },
+      {
+        "year": "2008",
+        "male": 0,
+        "female": 0,
+        "total_in_town": 0,
+        "rate_over_total": 0.0
+      },
+      {
+        "year": "2009",
+        "male": 0,
+        "female": 0,
+        "total_in_town": 0,
+        "rate_over_total": 0.0
+      },
+      {
+        "year": "2010",
+        "male": 0,
+        "female": 0,
+        "total_in_town": 0,
+        "rate_over_total": 0.0
+      },
+      {
+        "year": "2011",
+        "male": 0,
+        "female": 0,
+        "total_in_town": 0,
+        "rate_over_total": 0.0
+      },
+      {
+        "year": "2012",
+        "male": 0,
+        "female": 0,
+        "total_in_town": 0,
+        "rate_over_total": 0.0
+      },
+      {
+        "year": "2013",
+        "male": 30257,
+        "female": 29403,
+        "total_in_town": 59660,
+        "rate_over_total": 6.883859392037292
+      },
+      {
+        "year": "2014",
+        "male": 29793,
+        "female": 28978,
+        "total_in_town": 58771,
+        "rate_over_total": 6.570196610654561
+      },
+      {
+        "year": "2015",
+        "male": 31516,
+        "female": 29503,
+        "total_in_town": 61019,
+        "rate_over_total": 6.713669726486643
+      }
+    ]
   },
   {
     "name": "Ula, Muğla, Türkiye",
     "lattitude": "37.102153",
     "longitude": "28.417756",
-    "id": 129
+    "id": 129,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 11854,
+        "female": 11601,
+        "total_in_town": 23455,
+        "rate_over_total": 3.0613869760205494
+      },
+      {
+        "year": "2008",
+        "male": 12205,
+        "female": 12014,
+        "total_in_town": 24219,
+        "rate_over_total": 3.060180131004367
+      },
+      {
+        "year": "2009",
+        "male": 12042,
+        "female": 11927,
+        "total_in_town": 23969,
+        "rate_over_total": 2.9872342440810535
+      },
+      {
+        "year": "2010",
+        "male": 11912,
+        "female": 11837,
+        "total_in_town": 23749,
+        "rate_over_total": 2.905065791807492
+      },
+      {
+        "year": "2011",
+        "male": 11701,
+        "female": 11737,
+        "total_in_town": 23438,
+        "rate_over_total": 2.795816414655909
+      },
+      {
+        "year": "2012",
+        "male": 11738,
+        "female": 11672,
+        "total_in_town": 23410,
+        "rate_over_total": 2.750412679390703
+      },
+      {
+        "year": "2013",
+        "male": 11762,
+        "female": 11656,
+        "total_in_town": 23418,
+        "rate_over_total": 2.7020821193886913
+      },
+      {
+        "year": "2014",
+        "male": 11845,
+        "female": 11765,
+        "total_in_town": 23610,
+        "rate_over_total": 2.6394368307082434
+      },
+      {
+        "year": "2015",
+        "male": 11870,
+        "female": 11748,
+        "total_in_town": 23618,
+        "rate_over_total": 2.598591448567848
+      }
+    ]
   },
   {
     "name": "Yatağan, Muğla, Türkiye",
     "lattitude": "37.340253",
     "longitude": "28.140032",
-    "id": 130
+    "id": 130,
+    "populations": [
+      {
+        "year": "2007",
+        "male": 23197,
+        "female": 23078,
+        "total_in_town": 46275,
+        "rate_over_total": 6.0398926589363
+      },
+      {
+        "year": "2008",
+        "male": 23065,
+        "female": 23038,
+        "total_in_town": 46103,
+        "rate_over_total": 5.825322456736212
+      },
+      {
+        "year": "2009",
+        "male": 23004,
+        "female": 22884,
+        "total_in_town": 45888,
+        "rate_over_total": 5.718978889081371
+      },
+      {
+        "year": "2010",
+        "male": 22953,
+        "female": 22877,
+        "total_in_town": 45830,
+        "rate_over_total": 5.606095635123051
+      },
+      {
+        "year": "2011",
+        "male": 22873,
+        "female": 22862,
+        "total_in_town": 45735,
+        "rate_over_total": 5.455527934307022
+      },
+      {
+        "year": "2012",
+        "male": 22739,
+        "female": 22608,
+        "total_in_town": 45347,
+        "rate_over_total": 5.3277643644737385
+      },
+      {
+        "year": "2013",
+        "male": 22796,
+        "female": 22499,
+        "total_in_town": 45295,
+        "rate_over_total": 5.226356204531163
+      },
+      {
+        "year": "2014",
+        "male": 22512,
+        "female": 22271,
+        "total_in_town": 44783,
+        "rate_over_total": 5.006433697145585
+      },
+      {
+        "year": "2015",
+        "male": 22297,
+        "female": 22066,
+        "total_in_town": 44363,
+        "rate_over_total": 4.881078517775232
+      }
+    ]
   }
 ]
