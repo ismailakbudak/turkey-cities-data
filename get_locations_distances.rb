@@ -15,7 +15,10 @@ def get_locations_distances locations_json, path_directory, parameter
 	locations.each do |location|
 
 		root = "#{path_directory}/#{location['id']}"
-		Dir.mkdir root
+
+		unless File.directory?(root)
+			Dir.mkdir root
+		end
 
 		locations.select{|i| i['id'] > location['id'] }.each do |location_in|
 			first 	= "#{location['lattitude']},#{location['longitude']}"
