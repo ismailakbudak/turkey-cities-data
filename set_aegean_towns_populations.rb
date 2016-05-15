@@ -69,9 +69,9 @@ def set_location_population excel_file, json_file
     end
   end
 
-  # File.open(json_file, 'w') do |f|
-  #   f.write JSON.pretty_generate(locations)
-  # end
+  File.open(json_file, 'w') do |f|
+    f.write JSON.pretty_generate(locations)
+  end
 end
 
 if __FILE__ == $0
