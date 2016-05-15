@@ -123,6 +123,42 @@ def create_coordination(locations_json, result_file_name)
 
 end
 
+
+def create_coordination_mat(locations_json, result_file_name)
+	clear_result_file result_file_name
+  val = '%12s' % ['Y(Boylam)']
+  val += '%12s' % ['X(Enlem)']
+  write_result_file(val, result_file_name)
+	locations_json.each do |city|
+		val = ''
+    val += '%#13s' % [( '%.7f' % city['longitude']).to_s ]
+    val += '%#13s' % [( '%.7f' % city['lattitude']).to_s ]
+		write_result_file(val, result_file_name)
+	end
+end
+
+def create_name_result_mat(locations_json, result_file_name)
+	clear_result_file result_file_name
+	locations_json.each do |city|
+		val = get_name(city)
+		write_result_file(val, result_file_name)
+	end
+end
+
+def create_population_mat(locations_json, result_file_name, year)
+	clear_result_file result_file_name
+	locations_json.each do |city|
+		if city['populations'].nil?
+			number = 0
+		else
+			population = city['populations'].select{|b| b['year'] == year }.first
+			number = population['male'].to_i + population['female'].to_i
+		end
+		val = number
+		write_result_file(val, result_file_name)
+	end
+end
+
 def get_max_name_length(locations_json, field_name = 'name')
 	location = locations_json.max_by{|b| b[field_name].length }
 	get_name(location, field_name).length + 1
