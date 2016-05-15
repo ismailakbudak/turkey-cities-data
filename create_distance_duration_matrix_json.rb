@@ -7,7 +7,7 @@ def create_distance_duration_matrix_json(locations_json, matrix_json, path_direc
 	locations.each do |location|
 
 		root 	= "#{path_directory}/#{location['id']}"
-		val 	= { 'from_id': location['id'], 'to_id': location['id'], 'distance': 0, 'duration': 0 }
+		val 	= {'from_name': location['name'], 'to_name': location['name'], 'from_id': location['id'], 'to_id': location['id'], 'distance': 0, 'duration': 0 }
 		matrix << val
 
 		locations.select{|i| i['id'] > location['id'] }.each do |location_in|
@@ -19,10 +19,10 @@ def create_distance_duration_matrix_json(locations_json, matrix_json, path_direc
 			distance = routes[0]['legs'][0]['distance']['value']
 			duration = routes[0]['legs'][0]['duration']['value']
 
-			val = { 'from_id': location['id'], 'to_id': location_in['id'], 'distance': distance, 'duration': duration }
+			val = {'from_name': location['name'], 'to_name': location_in['name'], 'from_id': location['id'], 'to_id': location_in['id'], 'distance': distance, 'duration': duration }
 			matrix << val
 
-			val = { 'from_id': location_in['id'], 'to_id': location['id'], 'distance': distance, 'duration': duration }
+			val = {'from_name': location_in['name'], 'to_name': location['name'], 'from_id': location_in['id'], 'to_id': location['id'], 'distance': distance, 'duration': duration }
 			matrix << val
 
 			puts '.'
