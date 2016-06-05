@@ -13,6 +13,7 @@ def find file_yml, file_json
     latitude, longitude 	  = geocode.ll.split(',')
     location['lattitude'] 	= latitude
     location['longitude'] 	= longitude
+    puts '.'
   end
 
   File.open(file_json, 'w') do |f|
