@@ -13,6 +13,7 @@ GEM
     ruby-ole (1.2.12)
     spreadsheet (1.1.2)
       ruby-ole (>= 1.0)
+    turkish_support (1.0.2)
 
 PLATFORMS
   ruby
@@ -22,6 +23,7 @@ DEPENDENCIES
   google_maps_service (~> 0.4.1)
   haversine
   spreadsheet (~> 1.1, >= 1.1.2)
+  turkish_support
 
 BUNDLED WITH
    1.11.2
