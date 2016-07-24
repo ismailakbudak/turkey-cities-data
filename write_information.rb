@@ -31,11 +31,25 @@ def write_max_field(locations, field_name)
 end
 
 def write_average_field(locations, field_name)
-  avg = filtered_locations(field_name, locations).inject(0.0) { |sum, location| sum + location[field_name] } / locations.size
+  avg = filtered_locations(field_name, locations).inject(0.0) { |sum, location| sum + location[field_name] } / filtered_locations(field_name, locations).size
   value = "\n"
   value += "Average #{field_name}"
   value += "\n"
   "#{value}#{avg}"
+end
+
+def write_variance_field(locations, field_name)
+  avg = filtered_locations(field_name, locations).inject(0.0) { |sum, location| sum + location[field_name] } / filtered_locations(field_name, locations).size 
+  variance = filtered_locations(field_name, locations).inject(0.0) { |sum, location| sum + ((location[field_name] - avg) ** 2) } / filtered_locations(field_name, locations).size
+  standart_deviation = Math.sqrt(variance)
+  value = "\n"
+  value += "Variance #{field_name}"
+  value += "\n"
+  result = "#{value}#{variance}"
+  value = "\n"
+  value += "Standart deviation #{field_name}"
+  value += "\n"
+  result += "#{value}#{standart_deviation}"
 end
 
 def write_median_field(locations, field_name)
@@ -86,6 +100,7 @@ def write_information(matrix_json, result_file, parameter)
   value += write_average_field(locations, 'duration')
   value += write_average_field(locations, 'euclidean_distance')
   value += write_average_field(locations, 'circuity_factor')
+  value += write_variance_field(locations, 'circuity_factor')
   value += "\n"
   value += write_median_field(locations, 'distance')
   value += write_median_field(locations, 'duration')
