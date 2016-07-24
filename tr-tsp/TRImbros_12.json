@@ -1,0 +1,728 @@
+{
+  "_name": "TRImbros_12 (12 Villages of Gokceada Island of Turkey) / Special small TSP instance for Turkey - Gokceada Island : http://www.gokceada.gov.tr/",
+  "_comment": "Akbudak, I., Karagul, K., Gunduz, G., Tokat, S. (2016)",
+  "data": [
+    {
+      "name": "Çınarlı, Gökçeada, Türkiye",
+      "lattitude": "40.1929461",
+      "longitude": "25.9039948",
+      "id": 1,
+      "populations": [
+        {
+          "year": "2007",
+          "male": 4530,
+          "female": 2271,
+          "total_in_village": 6801,
+          "rate_over_total": 78.42481549815497
+        },
+        {
+          "year": "2008",
+          "male": 3283,
+          "female": 2214,
+          "total_in_village": 5497,
+          "rate_over_total": 73.53846153846155
+        },
+        {
+          "year": "2009",
+          "male": 2801,
+          "female": 2170,
+          "total_in_village": 4971,
+          "rate_over_total": 70.44069718010486
+        },
+        {
+          "year": "2010",
+          "male": 2758,
+          "female": 2127,
+          "total_in_village": 4885,
+          "rate_over_total": 69.05569691829234
+        },
+        {
+          "year": "2011",
+          "male": 3794,
+          "female": 2143,
+          "total_in_village": 5937,
+          "rate_over_total": 72.3142509135201
+        },
+        {
+          "year": "2012",
+          "male": 3748,
+          "female": 2195,
+          "total_in_village": 5943,
+          "rate_over_total": 71.70608108108108
+        },
+        {
+          "year": "2013",
+          "male": 3953,
+          "female": 2501,
+          "total_in_village": 6454,
+          "rate_over_total": 73.09173272933182
+        },
+        {
+          "year": "2014",
+          "male": 3724,
+          "female": 2505,
+          "total_in_village": 6229,
+          "rate_over_total": 72.06154558074965
+        },
+        {
+          "year": "2015",
+          "male": 4067,
+          "female": 2450,
+          "total_in_village": 6517,
+          "rate_over_total": 73.17538737929485
+        }
+      ]
+    },
+    {
+      "name": "Bademli, Gökçeada, Türkiye",
+      "lattitude": "40.221739",
+      "longitude": "25.906467",
+      "id": 2,
+      "populations": [
+        {
+          "year": "2007",
+          "male": 22,
+          "female": 26,
+          "total_in_village": 48,
+          "rate_over_total": 0.5535055350553505
+        },
+        {
+          "year": "2008",
+          "male": 22,
+          "female": 25,
+          "total_in_village": 47,
+          "rate_over_total": 0.6287625418060201
+        },
+        {
+          "year": "2009",
+          "male": 17,
+          "female": 21,
+          "total_in_village": 38,
+          "rate_over_total": 0.5384724387133343
+        },
+        {
+          "year": "2010",
+          "male": 25,
+          "female": 30,
+          "total_in_village": 55,
+          "rate_over_total": 0.7774950523042126
+        },
+        {
+          "year": "2011",
+          "male": 27,
+          "female": 34,
+          "total_in_village": 61,
+          "rate_over_total": 0.7429963459196103
+        },
+        {
+          "year": "2012",
+          "male": 28,
+          "female": 33,
+          "total_in_village": 61,
+          "rate_over_total": 0.7360038610038611
+        },
+        {
+          "year": "2013",
+          "male": 36,
+          "female": 39,
+          "total_in_village": 75,
+          "rate_over_total": 0.8493771234428085
+        },
+        {
+          "year": "2014",
+          "male": 37,
+          "female": 39,
+          "total_in_village": 76,
+          "rate_over_total": 0.8792225821378992
+        },
+        {
+          "year": "2015",
+          "male": 37,
+          "female": 33,
+          "total_in_village": 70,
+          "rate_over_total": 0.7859869750729844
+        }
+      ]
+    },
+    {
+      "name": "Kaleköy, Gökçeada, Türkiye",
+      "lattitude": "40.2300931",
+      "longitude": "25.893476",
+      "id": 3,
+      "populations": [
+        {
+          "year": "2007",
+          "male": 39,
+          "female": 36,
+          "total_in_village": 75,
+          "rate_over_total": 0.8648523985239853
+        },
+        {
+          "year": "2008",
+          "male": 64,
+          "female": 55,
+          "total_in_village": 119,
+          "rate_over_total": 1.5919732441471575
+        },
+        {
+          "year": "2009",
+          "male": 64,
+          "female": 57,
+          "total_in_village": 121,
+          "rate_over_total": 1.7146096074819328
+        },
+        {
+          "year": "2010",
+          "male": 62,
+          "female": 62,
+          "total_in_village": 124,
+          "rate_over_total": 1.752897936104043
+        },
+        {
+          "year": "2011",
+          "male": 61,
+          "female": 54,
+          "total_in_village": 115,
+          "rate_over_total": 1.4007308160779537
+        },
+        {
+          "year": "2012",
+          "male": 65,
+          "female": 51,
+          "total_in_village": 116,
+          "rate_over_total": 1.3996138996138996
+        },
+        {
+          "year": "2013",
+          "male": 78,
+          "female": 61,
+          "total_in_village": 139,
+          "rate_over_total": 1.5741789354473388
+        },
+        {
+          "year": "2014",
+          "male": 82,
+          "female": 58,
+          "total_in_village": 140,
+          "rate_over_total": 1.6196205460434983
+        },
+        {
+          "year": "2015",
+          "male": 75,
+          "female": 60,
+          "total_in_village": 135,
+          "rate_over_total": 1.5158320233550415
+        }
+      ]
+    },
+    {
+      "name": "Zeytinliköy, Gökçeada, Türkiye",
+      "lattitude": "40.189872",
+      "longitude": "25.871039",
+      "id": 4,
+      "populations": [
+        {
+          "year": "2007",
+          "male": 37,
+          "female": 49,
+          "total_in_village": 86,
+          "rate_over_total": 0.9916974169741697
+        },
+        {
+          "year": "2008",
+          "male": 41,
+          "female": 55,
+          "total_in_village": 96,
+          "rate_over_total": 1.2842809364548495
+        },
+        {
+          "year": "2009",
+          "male": 41,
+          "female": 57,
+          "total_in_village": 98,
+          "rate_over_total": 1.38869207878702
+        },
+        {
+          "year": "2010",
+          "male": 39,
+          "female": 57,
+          "total_in_village": 96,
+          "rate_over_total": 1.3570822731128074
+        },
+        {
+          "year": "2011",
+          "male": 43,
+          "female": 59,
+          "total_in_village": 102,
+          "rate_over_total": 1.2423873325213155
+        },
+        {
+          "year": "2012",
+          "male": 54,
+          "female": 58,
+          "total_in_village": 112,
+          "rate_over_total": 1.3513513513513513
+        },
+        {
+          "year": "2013",
+          "male": 62,
+          "female": 62,
+          "total_in_village": 124,
+          "rate_over_total": 1.404303510758777
+        },
+        {
+          "year": "2014",
+          "male": 62,
+          "female": 64,
+          "total_in_village": 126,
+          "rate_over_total": 1.4576584914391486
+        },
+        {
+          "year": "2015",
+          "male": 65,
+          "female": 66,
+          "total_in_village": 131,
+          "rate_over_total": 1.4709184819222996
+        }
+      ]
+    },
+    {
+      "name": "Tepeköy, Gökçeada, Türkiye",
+      "lattitude": "40.19116",
+      "longitude": "25.83185",
+      "id": 5,
+      "populations": [
+        {
+          "year": "2007",
+          "male": 43,
+          "female": 82,
+          "total_in_village": 125,
+          "rate_over_total": 1.441420664206642
+        },
+        {
+          "year": "2008",
+          "male": 44,
+          "female": 86,
+          "total_in_village": 130,
+          "rate_over_total": 1.7391304347826086
+        },
+        {
+          "year": "2009",
+          "male": 47,
+          "female": 91,
+          "total_in_village": 138,
+          "rate_over_total": 1.955505172169477
+        },
+        {
+          "year": "2010",
+          "male": 47,
+          "female": 89,
+          "total_in_village": 136,
+          "rate_over_total": 1.9225332202431438
+        },
+        {
+          "year": "2011",
+          "male": 46,
+          "female": 92,
+          "total_in_village": 138,
+          "rate_over_total": 1.6808769792935445
+        },
+        {
+          "year": "2012",
+          "male": 42,
+          "female": 79,
+          "total_in_village": 121,
+          "rate_over_total": 1.459942084942085
+        },
+        {
+          "year": "2013",
+          "male": 48,
+          "female": 78,
+          "total_in_village": 126,
+          "rate_over_total": 1.4269535673839184
+        },
+        {
+          "year": "2014",
+          "male": 48,
+          "female": 66,
+          "total_in_village": 114,
+          "rate_over_total": 1.3188338732068488
+        },
+        {
+          "year": "2015",
+          "male": 50,
+          "female": 69,
+          "total_in_village": 119,
+          "rate_over_total": 1.3361778576240737
+        }
+      ]
+    },
+    {
+      "name": "Şahinkaya, Gökçeada, Türkiye",
+      "lattitude": "40.1505283",
+      "longitude": "25.785212",
+      "id": 6
+    },
+    {
+      "name": "Yeni Bademli, Gökçeada, Türkiye",
+      "lattitude": "40.228384",
+      "longitude": "25.9018671",
+      "id": 7,
+      "populations": [
+        {
+          "year": "2007",
+          "male": 321,
+          "female": 335,
+          "total_in_village": 656,
+          "rate_over_total": 7.564575645756458
+        },
+        {
+          "year": "2008",
+          "male": 331,
+          "female": 344,
+          "total_in_village": 675,
+          "rate_over_total": 9.03010033444816
+        },
+        {
+          "year": "2009",
+          "male": 352,
+          "female": 358,
+          "total_in_village": 710,
+          "rate_over_total": 10.060932407538614
+        },
+        {
+          "year": "2010",
+          "male": 368,
+          "female": 381,
+          "total_in_village": 749,
+          "rate_over_total": 10.58806898501555
+        },
+        {
+          "year": "2011",
+          "male": 382,
+          "female": 374,
+          "total_in_village": 756,
+          "rate_over_total": 9.208282582216809
+        },
+        {
+          "year": "2012",
+          "male": 389,
+          "female": 374,
+          "total_in_village": 763,
+          "rate_over_total": 9.20608108108108
+        },
+        {
+          "year": "2013",
+          "male": 392,
+          "female": 370,
+          "total_in_village": 762,
+          "rate_over_total": 8.629671574178936
+        },
+        {
+          "year": "2014",
+          "male": 394,
+          "female": 365,
+          "total_in_village": 759,
+          "rate_over_total": 8.780657103192967
+        },
+        {
+          "year": "2015",
+          "male": 395,
+          "female": 360,
+          "total_in_village": 755,
+          "rate_over_total": 8.477430945430047
+        }
+      ]
+    },
+    {
+      "name": "Eşelek, Gökçeada, Türkiye",
+      "lattitude": "40.1475148",
+      "longitude": "25.9437673",
+      "id": 8,
+      "populations": [
+        {
+          "year": "2007",
+          "male": 64,
+          "female": 67,
+          "total_in_village": 131,
+          "rate_over_total": 1.5106088560885609
+        },
+        {
+          "year": "2008",
+          "male": 62,
+          "female": 64,
+          "total_in_village": 126,
+          "rate_over_total": 1.68561872909699
+        },
+        {
+          "year": "2009",
+          "male": 58,
+          "female": 65,
+          "total_in_village": 123,
+          "rate_over_total": 1.7429502621510558
+        },
+        {
+          "year": "2010",
+          "male": 58,
+          "female": 65,
+          "total_in_village": 123,
+          "rate_over_total": 1.7387616624257844
+        },
+        {
+          "year": "2011",
+          "male": 59,
+          "female": 67,
+          "total_in_village": 126,
+          "rate_over_total": 1.5347137637028014
+        },
+        {
+          "year": "2012",
+          "male": 62,
+          "female": 64,
+          "total_in_village": 126,
+          "rate_over_total": 1.5202702702702704
+        },
+        {
+          "year": "2013",
+          "male": 68,
+          "female": 64,
+          "total_in_village": 132,
+          "rate_over_total": 1.4949037372593432
+        },
+        {
+          "year": "2014",
+          "male": 70,
+          "female": 67,
+          "total_in_village": 137,
+          "rate_over_total": 1.5849143914854233
+        },
+        {
+          "year": "2015",
+          "male": 73,
+          "female": 66,
+          "total_in_village": 139,
+          "rate_over_total": 1.5607455647877835
+        }
+      ]
+    },
+    {
+      "name": "Dereköy, Gökçeada, Türkiye",
+      "lattitude": "40.150692",
+      "longitude": "25.773944",
+      "id": 9,
+      "populations": [
+        {
+          "year": "2007",
+          "male": 101,
+          "female": 113,
+          "total_in_village": 214,
+          "rate_over_total": 2.467712177121771
+        },
+        {
+          "year": "2008",
+          "male": 116,
+          "female": 120,
+          "total_in_village": 236,
+          "rate_over_total": 3.157190635451505
+        },
+        {
+          "year": "2009",
+          "male": 118,
+          "female": 129,
+          "total_in_village": 247,
+          "rate_over_total": 3.5000708516366728
+        },
+        {
+          "year": "2010",
+          "male": 124,
+          "female": 142,
+          "total_in_village": 266,
+          "rate_over_total": 3.760248798416738
+        },
+        {
+          "year": "2011",
+          "male": 147,
+          "female": 164,
+          "total_in_village": 311,
+          "rate_over_total": 3.7880633373934227
+        },
+        {
+          "year": "2012",
+          "male": 156,
+          "female": 174,
+          "total_in_village": 330,
+          "rate_over_total": 3.981660231660231
+        },
+        {
+          "year": "2013",
+          "male": 164,
+          "female": 139,
+          "total_in_village": 303,
+          "rate_over_total": 3.4314835787089466
+        },
+        {
+          "year": "2014",
+          "male": 178,
+          "female": 136,
+          "total_in_village": 314,
+          "rate_over_total": 3.632577510411846
+        },
+        {
+          "year": "2015",
+          "male": 178,
+          "female": 135,
+          "total_in_village": 313,
+          "rate_over_total": 3.514484617112059
+        }
+      ]
+    },
+    {
+      "name": "Şirinköy, Gökçeada, Türkiye",
+      "lattitude": "40.128797",
+      "longitude": "25.74218",
+      "id": 10,
+      "populations": [
+        {
+          "year": "2007",
+          "male": 97,
+          "female": 76,
+          "total_in_village": 173,
+          "rate_over_total": 1.9949261992619927
+        },
+        {
+          "year": "2008",
+          "male": 100,
+          "female": 76,
+          "total_in_village": 176,
+          "rate_over_total": 2.354515050167224
+        },
+        {
+          "year": "2009",
+          "male": 96,
+          "female": 77,
+          "total_in_village": 173,
+          "rate_over_total": 2.451466628879127
+        },
+        {
+          "year": "2010",
+          "male": 95,
+          "female": 81,
+          "total_in_village": 176,
+          "rate_over_total": 2.4879841673734804
+        },
+        {
+          "year": "2011",
+          "male": 101,
+          "female": 86,
+          "total_in_village": 187,
+          "rate_over_total": 2.2777101096224115
+        },
+        {
+          "year": "2012",
+          "male": 124,
+          "female": 97,
+          "total_in_village": 221,
+          "rate_over_total": 2.6665057915057915
+        },
+        {
+          "year": "2013",
+          "male": 120,
+          "female": 97,
+          "total_in_village": 217,
+          "rate_over_total": 2.4575311438278598
+        },
+        {
+          "year": "2014",
+          "male": 121,
+          "female": 98,
+          "total_in_village": 219,
+          "rate_over_total": 2.5335492827394726
+        },
+        {
+          "year": "2015",
+          "male": 117,
+          "female": 95,
+          "total_in_village": 212,
+          "rate_over_total": 2.3804176959353245
+        }
+      ]
+    },
+    {
+      "name": "Uğurlu, Gökçeada, Türkiye",
+      "lattitude": "40.123962",
+      "longitude": "25.706043",
+      "id": 11,
+      "populations": [
+        {
+          "year": "2007",
+          "male": 193,
+          "female": 170,
+          "total_in_village": 363,
+          "rate_over_total": 4.185885608856089
+        },
+        {
+          "year": "2008",
+          "male": 197,
+          "female": 176,
+          "total_in_village": 373,
+          "rate_over_total": 4.989966555183947
+        },
+        {
+          "year": "2009",
+          "male": 228,
+          "female": 210,
+          "total_in_village": 438,
+          "rate_over_total": 6.206603372537906
+        },
+        {
+          "year": "2010",
+          "male": 239,
+          "female": 225,
+          "total_in_village": 464,
+          "rate_over_total": 6.559230986711903
+        },
+        {
+          "year": "2011",
+          "male": 247,
+          "female": 230,
+          "total_in_village": 477,
+          "rate_over_total": 5.809987819732034
+        },
+        {
+          "year": "2012",
+          "male": 258,
+          "female": 237,
+          "total_in_village": 495,
+          "rate_over_total": 5.972490347490347
+        },
+        {
+          "year": "2013",
+          "male": 260,
+          "female": 238,
+          "total_in_village": 498,
+          "rate_over_total": 5.639864099660249
+        },
+        {
+          "year": "2014",
+          "male": 274,
+          "female": 256,
+          "total_in_village": 530,
+          "rate_over_total": 6.131420638593244
+        },
+        {
+          "year": "2015",
+          "male": 267,
+          "female": 248,
+          "total_in_village": 515,
+          "rate_over_total": 5.782618459465529
+        }
+      ]
+    },
+    {
+      "name": "Kuzu Limanı Feribot İskelesi Gökçeada, Türkiye",
+      "lattitude": "40.2269484",
+      "longitude": "25.9449663",
+      "id": 12
+    }
+  ]
+}
