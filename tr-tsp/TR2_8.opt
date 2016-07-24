@@ -1,0 +1,39 @@
+NAME: TR2_8 (8 Cities of Agean of Turkey)
+COMMENT: Akbudak, I., Karagul, K., Gunduz, G., Tokat, S. (2016)
+TYPE : TSP
+DIMENSION: 8
+EDGE_WEIGHT_TYPE: GEO
+
+Optimal Solution
+Solution Time: 0.014701 seconds
+Solution Distance: 818.33 -km
+Solution Loc: [1,2,7,5,6,4,8,3,1]
+
+***----------Details of Solution
+It is solved with Julia JuMP and Gurobi Solver 6.5.0
+Citing JuMP
+@article{LubinDunningIJOC,
+author = {Miles Lubin and Iain Dunning},
+title = {Computing in Operations Research Using Julia},
+journal = {INFORMS Journal on Computing},
+volume = {27},
+number = {2},
+pages = {238-248},
+year = {2015},
+doi = {10.1287/ijoc.2014.0623},
+URL = {http://dx.doi.org/10.1287/ijoc.2014.0623}
+}
+*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cutting planes:
+  Lazy constraints: 1
+
+Explored 0 nodes (14 simplex iterations) in 0.00 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.183255651445e+02, best bound 8.183255651445e+02, gap 0.0%
+Total Cost :818.3255651445432
+  0.014701 seconds (2.74 k allocations: 169.922 KB)
+Solution: 
+[1,2,7,5,6,4,8,3,1]
+*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

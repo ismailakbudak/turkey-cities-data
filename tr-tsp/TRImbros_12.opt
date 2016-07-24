@@ -1,0 +1,41 @@
+NAME: TRImbros_12 (12 Villages of Gokceada Island of Turkey) / Special small TSP instance for Turkey - Gokceada Island : http://www.gokceada.gov.tr/
+COMMENT: Akbudak, I., Karagul, K., Gunduz, G., Tokat, S. (2016)
+TYPE : TSP
+DIMENSION: 12
+EDGE_WEIGHT_TYPE: GEO
+
+Optimal Solution
+Solution Time: 0.029163 seconds
+Solution Distance: 57.89 -km
+Solution Loc: [1,2,3,7,12,8,10,11,9,6,5,4,1]
+
+***----------Details of Solution
+It is solved with Julia JuMP and Gurobi Solver 6.5.0
+Citing JuMP
+@article{LubinDunningIJOC,
+author = {Miles Lubin and Iain Dunning},
+title = {Computing in Operations Research Using Julia},
+journal = {INFORMS Journal on Computing},
+volume = {27},
+number = {2},
+pages = {238-248},
+year = {2015},
+doi = {10.1287/ijoc.2014.0623},
+URL = {http://dx.doi.org/10.1287/ijoc.2014.0623}
+}
+*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cutting planes:
+  Gomory: 1
+  Zero half: 3
+  Lazy constraints: 11
+
+Explored 5 nodes (45 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.789316927156e+01, best bound 5.789316927156e+01, gap 0.0%
+Total Cost :57.89316927155988
+  0.029163 seconds (27.92 k allocations: 1.542 MB)
+Solution: 
+[1,2,3,7,12,8,10,11,9,6,5,4,1]
+*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

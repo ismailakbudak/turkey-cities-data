@@ -1,0 +1,42 @@
+NAME: TR0_81 (81 Cities of Turkey)
+COMMENT: Akbudak, I., Karagul, K., Gunduz, G., Tokat, S. (2016)
+TYPE : TSP
+DIMENSION: 81
+EDGE_WEIGHT_TYPE: GEO
+
+Optimal Solution
+Solution Time: 6.87 seconds
+Solution Distance: 7152.05 -km
+Solution Loc: [1,31,80,46,79,27,63,2,44,23,62,24,69,25,12,21,47,72,49,13,56,73,30,65,4,76,36,75,8,53,61,29,28,52,58,60,5,55,57,19,66,38,50,51,68,40,71,6,18,37,78,74,67,14,81,54,41,11,26,43,16,77,34,59,39,22,17,10,45,35,9,48,20,64,3,32,15,7,42,70,33,1]
+
+***----------Details of Solution
+It is solved with Julia JuMP and Gurobi Solver 6.5.0
+Citing JuMP
+@article{LubinDunningIJOC,
+author = {Miles Lubin and Iain Dunning},
+title = {Computing in Operations Research Using Julia},
+journal = {INFORMS Journal on Computing},
+volume = {27},
+number = {2},
+pages = {238-248},
+year = {2015},
+doi = {10.1287/ijoc.2014.0623},
+URL = {http://dx.doi.org/10.1287/ijoc.2014.0623}
+}
+*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cutting planes:
+  Gomory: 11
+  Clique: 1
+  Flow cover: 1
+  Zero half: 14
+
+Explored 738 nodes (3174 simplex iterations) in 5.61 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.152048937984e+03, best bound 7.152048937984e+03, gap 0.0%
+Total Cost :7152.048937984429
+  6.877469 seconds (7.28 M allocations: 1.496 GB, 3.52% gc time)
+Solution: 
+[1,31,80,46,79,27,63,2,44,23,62,24,69,25,12,21,47,72,49,13,56,73,30,65,4,76,36,75,8,53,61,29,28,52,58,60,5,55,57,19,66,38,50,51,68,40,71,6,18,37,78,74,67,14,81,54,41,11,26,43,16,77,34,59,39,22,17,10,45,35,9,48,20,64,3,32,15,7,42,70,33,1]
+*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

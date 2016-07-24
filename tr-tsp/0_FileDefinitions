@@ -1,0 +1,63 @@
+TSP Test Instances of Turkey Definitions
+Prepared By: Akbudak, I., Karagul, K., Gunduz, G., Tokat, S.
+Date & Place: May 2016, Denizli, Turkey
+
+				#File Name				#Definitions
+===========		===================		==============================================================================
+*----------------------Small TSP special instance of Turkey-----------------------------------------------
+				TRImbros_12.tsp 			12 Villages of Gokceada Island of Turkey
+*-----------------------------------------------------------------------------------------------------
+---------------------Turkey Cities of Region----------------------------------------------------------
+*-----------------------------------------------------------------------------------------------------
+				TR0_81.tsp					0. Turkey Cities
+				TR1_0.tsp					1. The Marmara Region Cities,
+				TR2_8.tsp					2. The Aegean Region Cities,
+				TR3_0.tsp					3. The Black Sea Region Cities,
+				TR4_0.tsp					4. The Mediterranean Region Cities,
+				TR5_0.tsp					5. The Central Anatolia Region Cities,
+				TR6_0.tsp					6. The Eastern Anatolia Region Cities,
+				TR7_0.tsp					7. The Southeastern Anatolia Region Cities
+
+*-----------------------------------------------------------------------------------------------------
+---------------------Turkey Towns of Regions----------------------------------------------------------
+*-----------------------------------------------------------------------------------------------------
+				TR0a_970.tsp					0. Turkey Towns
+				TR1a_000.tsp					1. The Marmara Region Towns,
+				TR2a_133.tsp					2. The Aegean Region Towns,
+				TR3a_000.tsp					3. The Black Sea Region Towns,
+				TR4a_000.tsp					4. The Mediterranean Region Towns,
+				TR5a_000.tsp					5. The Central Anatolia Region Towns,
+				TR6a_000.tsp					6. The Eastern Anatolia Region Towns,
+				TR7a_000.tsp					7. The Southeastern Anatolia Region Towns
+
+*-----------------------------------------------------------------------------------------------------
+---------------------Turkey Villages of Regions-------------------------------------------------------
+*-----------------------------------------------------------------------------------------------------
+				TR0b_000.tsp					0. Turkey Villages
+				TR1b_000.tsp					1. The Marmara Region Villages,
+				TR2b_000.tsp					2. The Aegean Region Villages,
+				TR3b_000.tsp					3. The Black Sea Region Villages,
+				TR4b_000.tsp					4. The Mediterranean Region Villages,
+				TR5b_000.tsp					5. The Central Anatolia Region Villages,
+				TR6b_000.tsp					6. The Eastern Anatolia Region Villages,
+				TR7b_000.tsp					7. The Southeastern Anatolia Region Villages
+
+*-----------------------------------------------------------------------------------------------------
+*---------------------------------------------------------------------------------------------------------------------
+				******.opt 					Optimal solutions for Test Instances
+***-----------------------------------------------------------------------------------------------------------------***
+#No		Turkish Name				English Name
+===		==========================	================================
+1- 		Marmara Bölgesi				The Marmara Region
+2-		Ege Bölgesi					The Aegean Region
+3-		Karadeniz Bölgesi			The Black Sea Region
+4-		Akdeniz Bölgesi				The Mediterranean Region
+5-		İç Anadolu Bölgesi			The Central Anatolia Region
+6-		Doğu Anadolu Bölgesi		The Eastern Anatolia Region
+7-		Güneydoğu Anadolu Bölgesi	The Southeastern Anatolia Region
+---------------------------------------------------------------------
+a-		Marmara Denizli 			The Sea of Marmara 
+b-		Akdeniz						The Mediterranean Sea
+c-		Karadeniz					The Black Sea
+d-		Ege Denizi  				The Aegean Sea
+---------------------------------------------------------------------
